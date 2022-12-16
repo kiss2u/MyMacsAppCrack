@@ -2,7 +2,7 @@
 
 this repo use for publish the crack file.
 
-**Crack by 秋城落叶, All Reserved.**
+**Crack by 秋城落叶, All Reserved By QiuChenly.**
 
 # Update 2022.12.16
 
@@ -36,7 +36,7 @@ sudo codesign -f -s - --timestamp=none /Applications/Macs\ Fan\ Control.app/Cont
 yes, all opensource,you can read this:
 [How To Crack Macs Fan Control?](./howtocrack.md)
 
-## Now Support Sublime Merge v2080 dev & Sublime Text v4143 Stable Channel
+## Now Support Sublime Merge v2080 dev & Sublime Text v4146 Dev Channel
 
 1. copy "Sublime Merge" or "Sublime Text" file to your .app folder(.app/MacOS/) replace original file.
 2. in Terminal execute the code for your self sign
