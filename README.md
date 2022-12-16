@@ -4,9 +4,19 @@ this repo use for publish the crack file.
 
 **Crack by 秋城落叶, All Reserved By QiuChenly.**
 
-# Update 2022.12.16
+# Update 2022.12.17
 
 You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
+
+## Now Support Bandizip365 v7.19 AppleStore Edition
+
+1. Extract App from "Bandizip365 v7.19 Crack By QiuChenly.zip".
+2. Copy it to Applications.
+3. If you Can't open it, you need:In Terminal execute the code for your self sign:
+
+```bash
+sudo codesign -f -s - --timestamp=none /Applications/Bandizip365.app
+```
 
 ## Now Support PlistEdit Pro v1.10b1
 
