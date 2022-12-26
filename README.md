@@ -8,6 +8,13 @@ this repo use for publish the crack file.
 
 You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
 
+## Add "Omi 录屏专家 v1.2.1" & Fig Player 1.2.0
+
+1. Clear Permission: tccutil reset ScreenCapture com.mac.utility.screen.recorder
+2. copy Omi 录屏专家.app/Fig Player.app to Applications Folder.
+3. codesign it.
+4. open it, unlock all functions.
+
 ## Add "Record it v1.7.6" Pro
 
 1. extract app from "Record it.zip"
@@ -30,15 +37,13 @@ sudo codesign -f -s - --timestamp=none /Applications/Bandizip365.app
 
 ## Now Support PlistEdit Pro v1.10b1
 
-1. Copy "PlistEdit Pro" file to your .app folder(.app/MacOS).
-2. [OPTIONS] Extract "PlistEdit Pro zh_Hans.lproj.zip" and copy "PlistEdit Pro zh_Hans.lproj" to ".app/Contents/Resources/" if you need Chinese Simple Lang.
-3. In Terminal execute the code for your self sign:
+1. In Terminal execute the code for your self sign:
 
 ```bash
 sudo codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app
 ```
 
-OR YOU CAN USE IT:"PlistEdit Pro v1.10b1.zip" extract copy to "Applications" and "codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app", you get it!
+YOU CAN USE IT:"PlistEdit Pro v1.10b1.zip" extract copy to "Applications" and "codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app", you get it!
 
 ## Now Support Macs Fan Control v1.5.14
 
