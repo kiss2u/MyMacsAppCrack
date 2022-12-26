@@ -15,7 +15,7 @@ You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford
 3. codesign yourself.
    sudo codesign -f -s - --timestamp=none /Applications/Record it.app
 
-4. if you won't get Recording Screen Permession, Terminate execute:
+4. if you won't get Recording Screen Permission, Terminate execute:
    tccutil reset ScreenCapture
 
 ## Now Support Bandizip365 v7.19 AppleStore Edition
