@@ -4,9 +4,19 @@ this repo use for publish the crack file.
 
 **Crack by 秋城落叶, All Reserved By QiuChenly.**
 
-# Update 2022.12.24 Covid-19 我测你吗！
+# Update 2022.12.26 Covid-19 我测你吗！
 
 You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
+
+## Add "Record it v1.7.6" Pro
+
+1. extract app from "Record it.zip"
+2. copy to application folder.
+3. codesign yourself.
+   sudo codesign -f -s - --timestamp=none /Applications/Record it.app
+
+4. if you won't get Recording Screen Permession, Terminate execute:
+   tccutil reset ScreenCapture
 
 ## Now Support Bandizip365 v7.19 AppleStore Edition
 
