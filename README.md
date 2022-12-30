@@ -4,9 +4,16 @@ this repo use for publish the crack file.
 
 **Crack by 秋城落叶, All Reserved By QiuChenly.**
 
-# Update 2022.12.26 Covid-19 我测你吗！
+# Update 2022.12.30 Covid-19 我测你吗！
 
 You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
+
+## Add Commander One v3.5.3646
+
+1. Download from Master WebSite: https://mac.eltima.com/commander-one-download.html
+2. copy "Commander One" file and replace original file.
+3. codesign it.
+4. open it, unlock all functions.
 
 ## Add "Omi 录屏专家 v1.2.1" & Fig Player 1.2.0
 
