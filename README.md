@@ -8,6 +8,9 @@ this repo use for publish the crack file.
 
 You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
 
+# 捏麻麻滴 github不让上传大文件 霍史里马 以后更新会考虑在论坛或者个人博客上
+## 吾爱破解围观破解过程：https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377 刷屏的用户QiuChenly就是我发的帖子
+
 ## Add Commander One v3.5.3646
 
 1. Download from Master WebSite: https://mac.eltima.com/commander-one-download.html
