@@ -1,87 +1,177 @@
-# Crack Apps for My Mac | **All File Only Support X86_64 Mac**
+# Crack Apps for My Mac / Update 2023.02.26
+
+**All File Only Support X86_64 Mac**
 
 this repo use for publish the crack file.
 
-**Crack by 秋城落叶, All Reserved By QiuChenly.**
+**K'ed By 秋城落叶 2023◎QiuChenly.**
 
-# Update 2022.12.30 Covid-19 我测你吗！
+## 吾爱破解围观破解过程：
 
-You known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Crack File **Just Support X86_64 Mac**.
+[macOS 逆向区](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
 
-# 捏麻麻滴 github不让上传大文件 霍史里马 以后更新会考虑在论坛或者个人博客上
-## 吾爱破解围观破解过程：https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377 刷屏的用户QiuChenly就是我发的帖子
+用户: QiuChenly
 
-## Add Commander One v3.5.3646
+#
 
-1. Download from Master WebSite: https://mac.eltima.com/commander-one-download.html
-2. copy "Commander One" file and replace original file.
-3. codesign it.
-4. open it, unlock all functions.
+## How exciting! I cracked the mac application with the RAM Patch. Now the file size is about 100KB.
 
-## Add "Omi 录屏专家 v1.2.1" & Fig Player 1.2.0
+But u known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Cracked Patch **Just Support X86_64 Mac**.
 
-1. Clear Permission: tccutil reset ScreenCapture com.mac.utility.screen.recorder
-2. copy Omi 录屏专家.app/Fig Player.app to Applications Folder.
-3. codesign it.
-4. open it, unlock all functions.
+# Here are some my own crack'd software list
 
-## Add "Record it v1.7.6" Pro
+| AppName                             | Version            | Source                                                                        |
+| ----------------------------------- | ------------------ | ----------------------------------------------------------------------------- |
+| Omi 录屏专家[^omi_recording_pro]    | v1.2.4(2023020802) | AppleStore                                                                    |
+| Omi NTFS磁盘专家 Pro[^Omi_NTFS] | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg) |
+| Fig Player[^Fig_Player]                          | v1.2.2(2023022001) | AppleStore                                                                    |
+| Bandizip365[^bandizip365]           | v7.20              | AppleStore                                                                    |
+| Macs Fan Control[^macs_fan_control] | v1.5.14            | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)             |
+| Record it Pro[^record_it_pro]       | v1.7.6             | AppStore                                                                      |
+| PlistEdit Pro[^plistedit_pro]       | v1.10b1            | Here                                                                    |
+| Sublime Text Dev[^sublimetext]                   | v4147              | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4147_mac.zip) |
+|               CleanMyMac Beta[^cmm]                     |        v4.13.0b2            | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg) |
+|             App Cleaner & Uninstaller[^App_Cleaner_Uninstaller]                        |   v8.1                 | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
+|                   PopClip[^popclip]                  |       v2022.12             |[Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)|
+|MWeb Pro[^mwebpro]|v4.3.8|[Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro438.dmg)|
+|Ulysses[^Ulysses]| v29.4 |AppleStore|
+|iShot[^ishot]|v2.3.2|AppleStore|
+|AutoSwitchInput[^autoswitch]|v2.2.1|AppleStore|
+|SuperRightKey[^iRightMouse]|v2.2.3|AppleStore|
+|Xmind[^Xmind]|v22.11.3656|[Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)|
 
-1. extract app from "Record it.zip"
-2. copy to application folder.
-3. codesign yourself.
-   sudo codesign -f -s - --timestamp=none /Applications/Record it.app
-
-4. if you won't get Recording Screen Permission, Terminate execute:
-   tccutil reset ScreenCapture
-
-## Now Support Bandizip365 v7.19 AppleStore Edition
-
-1. Extract App from "Bandizip365 v7.19 Crack By QiuChenly.zip".
-2. Copy it to Applications.
-3. If you Can't open it, you need:In Terminal execute the code for your self sign:
-
-```bash
-sudo codesign -f -s - --timestamp=none /Applications/Bandizip365.app
-```
-
-## Now Support PlistEdit Pro v1.10b1
-
-1. In Terminal execute the code for your self sign:
-
-```bash
-sudo codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app
-```
-
-YOU CAN USE IT:"PlistEdit Pro v1.10b1.zip" extract copy to "Applications" and "codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app", you get it!
-
-## Now Support Macs Fan Control v1.5.14
-
-1. copy "Macs Fan Control" file to your .app folder(.app/MacOS).
-2. in Terminal execute the code for your self sign:
-
-```bash
-sudo codesign -f -s - --timestamp=none /Applications/Macs\ Fan\ Control.app/Contents/MacOS/Macs\ Fan\ Control
-```
-
-3. Crack Over!
+## Q&A
 
 ### it safe?
 
 yes, all opensource,you can read this:
 [How To Crack Macs Fan Control?](./howtocrack.md)
 
-## Now Support Sublime Merge v2080 dev & Sublime Text v4147 Dev Channel
+## Tips
+[^Ulysses]: Ulysses
+    1. Copy /Applications/UlyssesMac.app/Contents/Frameworks/KissXML.framework/Versions/A/KissXML to /Applications/UlyssesMac.app/Contents/Frameworks/KissXML.framework/Versions/A/KissXML_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+        
+[^Xmind]: Xmind
+    1. modify some javascript.
+    2. about crack the app more infomation pls read it: https://www.52pojie.cn/thread-1695324-1-1.html.
+    3. The asar file so big, i can't upload it.
+        
+[^App_Cleaner_Uninstaller]: App Cleaner & Uninstaller
+    1. Copy /Applications/App Cleaner 8.app/Contents/Frameworks/NektonyFallManager.framework/Versions/A/NektonyFallManager to /Applications/App Cleaner 8.app/Contents/Frameworks/NektonyFallManager.framework/Versions/A/NektonyFallManager_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
 
-1. copy "Sublime Merge" or "Sublime Text" file to your .app folder(.app/MacOS/) replace original file.
-2. in Terminal execute the code for your self sign
+[^mwebpro]: MWeb Pro
+    1. Copy /Applications/MWeb Pro.app/Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle to /Applications/MWeb Pro.app/Contents/Frameworks/Sparkle.framework/Versions/B/Sparkle_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
 
-```bash
-sudo codesign -f -s - --timestamp=none /Applications/Sublime\ Merge.app
+[^popclip]: PopClip
+    1. Copy /Applications/PopClip.app/Contents/Frameworks/ShortcutRecorder.framework/Versions/A/ShortcutRecorder to /Applications/PopClip.app/Contents/Frameworks/ShortcutRecorder.framework/Versions/A/ShortcutRecorder_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
 
-OR
+[^ishot]: iShot Pro
+    1. Copy /Applications/iShot.app/Contents/Frameworks/PTHotKey.framework/Versions/A/PTHotKey to /Applications/iShot.app/Contents/Frameworks/PTHotKey.framework/Versions/A/PTHotKey_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
 
-sudo codesign -f -s - --timestamp=none /Applications/Sublime\ Text.app
-```
+[^autoswitch]: AutoSwitchInput
+    1. Copy /Applications/AutoSwitchInput.app/Contents/Frameworks/PTHotKey.framework/Versions/A/PTHotKey to /Applications/AutoSwitchInput.app/Contents/Frameworks/PTHotKey.framework/Versions/A/PTHotKey_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
 
-3. Crack Ok! now you 'Enter Lincense' Window input "qwer" or any char's you can get activiation!
+[^iRightMouse]: iRightMouse
+    1. Copy /Applications/iRightMouse.app/Contents/MacOS/iRightMouse to /Applications/iRightMouse.app/Contents/MacOS/iRightMouse_副本
+    2. ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+
+
+[^omi_recording_pro]: Omi 录屏专家
+    1. Clear Permission: tccutil reset ScreenCapture com.mac.utility.screen.recorder
+    2. Download App from Mac App Store.
+    3. copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本.
+    4. Execute the code:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+        <your_xxx_副本_file> is /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本
+       <your_xxx_file> is /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
+
+[^record_it_pro]: Record it
+    1. extract app from "Record it.zip"
+    2. copy to application folder.
+    3. codesign yourself.
+        sudo codesign -f -s - --timestamp=none /Applications/Record it.app
+    
+    4. if you won't get Recording Screen Permission, Terminate execute:
+        tccutil reset ScreenCapture
+
+[^bandizip365]: Bandizip365 Crack
+    1. Download App from Mac App Store.
+    2. copy /Applications/Bandizip365.app/Contents/MacOS/Bandizip365 to /Applications/Bandizip365.app/Contents/MacOS/Bandizip365_副本.
+    3. Execute the code:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+        <your_xxx_副本_file> is /Applications/Bandizip365.app/Contents/MacOS/Bandizip365_副本
+       <your_xxx_file> is /Applications/Bandizip365.app/Contents/MacOS/Bandizip365
+
+[^plistedit_pro]: PlistEdit Pro
+    1. In Terminal execute the code for your self sign:
+        ```bash
+        sudo codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app
+        ```
+    YOU CAN USE IT:"PlistEdit Pro v1.10b1.zip" extract copy to "Applications" and "codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app", you get it!
+
+[^macs_fan_control]: Macs Fan Control
+    1. copy "/Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras" file to "/Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras_副本".
+    2. in Terminal execute the code for your self sign:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib /Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras_副本 /Applications/Macs Fan Control.app/Contents/Frameworks/QtMacExtras.framework/Versions/5/QtMacExtras
+        ```
+    3. Crack Over!
+
+[^sublimetext]: Sublime Text Dev Crack
+    1. copy "Sublime Text" file to your .app folder(.app/MacOS/) replace original file.
+    2. in Terminal execute the code for your self sign
+        ```bash
+        sudo codesign -f -s - --timestamp=none /Applications/Sublime\ Text.app
+        ```
+    3. Crack Ok! now you 'Enter Lincense' Window input "qwer" or any char's you can get activiation!
+
+[^cmm]: Clean My Mac Crack
+    1. First copy the Announcements to Announcements_副本
+    2. Download app from website, normal install, open and upgrade to latest test version.
+    3. just run command in Terminal:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+       <your_xxx_副本_file> is /Applications/CleanMyMac\ X.app/Contents/Frameworks/Announcements.framework/Versions/A/Announcements_副本 
+       <your_xxx_file> is /Applications/CleanMyMac\ X.app/Contents/Frameworks/Announcements.framework/Versions/A/Announcements
+        
+[^Omi_NTFS]: Omi NTFS磁盘专家
+    1. First copy the /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本
+    2. Download app from website, normal install, open and upgrade to latest test version.
+    3. just run command in Terminal:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+        
+[^Fig_Player]: Fig Player
+    1. First copy the /Applications/PotPlayerX.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster to /Applications/PotPlayerX.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster_副本
+    2. Download app from website, normal install, open and upgrade to latest test version.
+    3. just run command in Terminal:
+        ```bash
+        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
+        ```
+        
