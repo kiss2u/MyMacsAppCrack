@@ -47,7 +47,7 @@ If u use my injection files...
 | CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |
-| MWeb Pro[^mwebpro]                                  | v4.3.8              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro438.dmg)                        |
+| MWeb Pro[^mwebpro]                                  | v4.3.9              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro439.dmg)                        |
 | Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |
 | iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |
