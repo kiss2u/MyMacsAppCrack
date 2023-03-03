@@ -12,6 +12,24 @@ this repo use for publish the crack file.
 
 用户: QiuChenly
 
+## 你写的我看不懂，怎么用？
+老天天有人说看不懂怎么用有没有成品。
+
+关于成品我再次说明：
+仅交流学习使用，不会发布任何形式的成品，也没有任何官方的QQ群和聊天群，更没有以牟利为目的收取过任何人的一分钱，各位谨防受骗。
+
+现在国内版权意识这么强烈没人敢公布成品，敢发布下一秒就被告到倾家荡产，嫌哥们4⃣️的不够快是吧😓。
+
+@苏州思杰马克丁软件有限公司 出来谈谈你对诉讼的看法
+
+这里重新用中文写一份使用方法，这下中文能看懂了吧：
+
+1.下载Tools里面的两个文件: insert_dylib libInlineInjectPlugin.dylib
+2.这两个文件不可以被删除或移动到任意位置，因为他们的路径被记录在目标App的读取路径中。
+3.复制一份下面指南中提到的文件。如copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to ‘/Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本’就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
+4.sudo insert_dylib libInlineInjectPlugin.dylib /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
+5.结束。切记不要激活后就把dylib文件给移动位置或者删除，实际注入还是需要他们！！！
+
 # Instructions: First of all, u must known somthing...
 
 ## Q: Where is the Injection Files?:
@@ -35,7 +53,7 @@ But u known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't affo
 If u use my injection files...
 
 | AppName                                             | Version             | Source                                                                                                          |
-| --------------------------------------------------- | ------------------- | --------------------------------------------------------------------------------------------------------------- |
+|-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|
 | Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | AppleStore                                                                                                      |
 | Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |
 | Fig Player[^fig_player]                             | v1.2.2(2023022001)  | AppleStore                                                                                                      |
@@ -45,7 +63,7 @@ If u use my injection files...
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |
 | Sublime Text Dev[^sublimetext]                      | v4147               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4147_mac.zip)                          |
 | CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |
-| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
+| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |
 | MWeb Pro[^mwebpro]                                  | v4.3.9              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro439.dmg)                        |
 | Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |
