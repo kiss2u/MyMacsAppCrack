@@ -6,13 +6,14 @@ this repo use for publish the crack file.
 
 **K'ed By 秋城落叶 2023◎QiuChenly.**
 
-## 吾爱破解围观破解过程：
+## 吾爱破解围观破解过程
 
 [macOS 逆向区](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
 
 用户: QiuChenly
 
 ## 你写的我看不懂，怎么用？
+
 老天天有人说看不懂怎么用有没有成品。
 
 关于成品我再次说明：
@@ -25,14 +26,22 @@ this repo use for publish the crack file.
 这里重新用中文写一份使用方法，这下中文能看懂了吧：
 
 1.下载Tools里面的两个文件: insert_dylib libInlineInjectPlugin.dylib
+
 2.这两个文件不可以被删除或移动到任意位置，因为他们的路径被记录在目标App的读取路径中。
-3.复制一份下面指南中提到的文件。如copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to ‘/Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本’就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
+
+3.复制一份下面指南中提到的文件。
+
+如copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to ‘/Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本’
+
+就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
+
 4.sudo insert_dylib libInlineInjectPlugin.dylib /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
+
 5.结束。切记不要激活后就把dylib文件给移动位置或者删除，实际注入还是需要他们！！！
 
-# Instructions: First of all, u must known somthing...
+# Instructions: First of all, u must known somthing
 
-## Q: Where is the Injection Files?:
+## Q: Where is the Injection Files?
 
 A: The `insert_dylib` & `libInlineInjectPlugin.dylib` locate to `'Tools'` Folder.
 
@@ -44,7 +53,7 @@ A: this is a inject Tool, it can inject `libInlineInjectPlugin.dylib` to target 
 
 A: Some crack code, can Hook&Modify Target App's AssemblerCode.
 
-# How exciting! I cracked the mac application with the RAM Patch. Now the file size is about 100KB.
+# How exciting! I cracked the mac application with the RAM Patch. Now the file size is about 100KB
 
 But u known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Cracked Patch **Just Support X86_64 Mac**.
 
@@ -58,14 +67,14 @@ If u use my injection files...
 | Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |
 | Fig Player[^fig_player]                             | v1.2.2(2023022001)  | AppleStore                                                                                                      |
 | Bandizip365[^bandizip365]                           | v7.20               | AppleStore                                                                                                      |
-| Macs Fan Control[^macs_fan_control]                 | v1.5.14             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |
+| Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |
 | Record it Pro[^record_it_pro]                       | v1.7.6              | AppStore                                                                                                        |
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |
 | Sublime Text Dev[^sublimetext]                      | v4147               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4147_mac.zip)                          |
 | CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |
-| MWeb Pro[^mwebpro]                                  | v4.3.9              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro439.dmg)                        |
+| MWeb Pro[^mwebpro]                                  | v4.4.91              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |
 | Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |
 | iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |
@@ -190,14 +199,37 @@ sudo codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app
        ```
     3. Crack Over!
 
-[^sublimetext]: Sublime Text Dev Crack
+[^sublimetext]: Sublime Text Dev v4147 Crack
 
-    1. copy "Sublime Text" file to your .app folder(.app/MacOS/) replace original file.
-    2. in Terminal execute the code for your self sign
+    Target File: /Applications/Sublime Text.app/Contents/MacOS/sublime_text
+    1. Copy And Backup the file.
+    2. Open 'sublime_text' file use 'Hex Friends',find:
+        0249FFC6 EBE15B41 5C415E41 5F5DC355 4889E5
+    3. Replace The Hashcode with: 0249FFC6 EBE15B41 5C415E41 5F5DC36A 0158C3
+
+        ![](./Sublime%20Text%204147.png)
+        
+    4. Open Sublime Text v4147, input the fake Licence get activation:
+
+        ```
+        ----- BEGIN LICENSE -----
+        秋城落叶@52pojie.com
+        Unlimited User License
+        EA7E-8888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        88888888888888888888888888888888
+        ------ END LICENSE ------
+        ```
+    5. [Maybe Not Need]in Terminal execute the code for your self sign
        ```bash
        sudo codesign -f -s - --timestamp=none /Applications/Sublime\ Text.app
        ```
-    3. Crack Ok! now you 'Enter Lincense' Window input "qwer" or any char's you can get activiation!
 
 [^cmm]: Clean My Mac Crack
 
