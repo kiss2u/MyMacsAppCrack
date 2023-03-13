@@ -92,6 +92,8 @@ yes, all opensource,you can read this:
 
 See and click right of AppName's annotate like 1,2...17----then read the 'Tips' on below.
 
+如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
+
 # Tips
 
 [^ulysses]: Ulysses
