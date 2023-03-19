@@ -200,13 +200,18 @@ sudo codesign -f -s - --timestamp=none /Applications/PlistEdit Pro.app
        ```
     3. Crack Over!
 
-[^sublimetext]: Sublime Text Dev v4147 Crack
+[^sublimetext]: Sublime Text Dev v4148 Crack
 
     Target File: /Applications/Sublime Text.app/Contents/MacOS/sublime_text
+
+    Crack Point: `verify_signature(std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&, std::__1::basic_string<char, std::__1::char_traits<char>, std::__1::allocator<char>> const&)
+__Z16verify_signatureRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEEES7_S7_ proc near`
+
     1. Copy And Backup the file.
     2. Open 'sublime_text' file use 'Hex Friends',find:
         0249FFC6 EBE15B41 5C415E41 5F5DC355 4889E5
-    3. Replace The Hashcode with: 0249FFC6 EBE15B41 5C415E41 5F5DC36A 0158C3
+    3. Replace The Hashcode with: 
+        0249FFC6 EBE15B41 5C415E41 5F5DC36A 0158C3
 
         ![](./Sublime%20Text%204147.png)
         
