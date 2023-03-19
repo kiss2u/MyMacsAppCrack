@@ -1,6 +1,8 @@
-# Crack Apps for My Mac / Update 2023.02.26
+# Crack Apps for My Mac / Update 2023.03.19
 
 **All File Only Support X86_64 Mac**
+
+**But M1/M2 Mac Can Open 'Rosetta 运行' to use!**
 
 this repo use for publish the crack file.
 
@@ -16,11 +18,9 @@ this repo use for publish the crack file.
 
 老天天有人说看不懂怎么用有没有成品。
 
-声明: 本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
+声明: 本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。因使用者传播者传播破解软件导致的任何法律责任与包括但不仅限于引起系统故障 财产损失等问题作者概不负责。
 
 还要成品，嫌哥们4⃣️的不够快是吧😓。
-
-@苏州思杰马克丁软件有限公司 出来谈谈你对起诉的看法
 
 这里重新用中文写一份使用方法，这下中文能看懂了吧：
 
@@ -40,7 +40,7 @@ insert_dylib是一个注入工具，将体验代码注入到目标程序中。
 
 就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
 
-4. 执行注入
+4.执行注入
 
 ```bash
 sudo insert_dylib文件全路径 libInlineInjectPlugin.dylib文件的全路径 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
@@ -85,7 +85,7 @@ If u use my injection files...
 | CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
-| MWeb Pro[^mwebpro]                                  | v4.4.91              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
+| MWeb Pro[^mwebpro]                                  | v4.4.1              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
 | Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |I would like to do it|
 | iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |I would like to do it|
