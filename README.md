@@ -16,7 +16,7 @@ this repo use for publish the crack file.
 
 老天天有人说看不懂怎么用有没有成品。
 
-再次声明: 本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人的一分钱，各位谨防受骗。不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
+声明: 本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
 
 还要成品，嫌哥们4⃣️的不够快是吧😓。
 
@@ -24,9 +24,15 @@ this repo use for publish the crack file.
 
 这里重新用中文写一份使用方法，这下中文能看懂了吧：
 
+0.首先关闭SIP。M1/M2机器使用需要在应用详情中勾选"Rosetta 运行"才可以正常注入。
+
 1.下载Tools里面的两个文件: insert_dylib libInlineInjectPlugin.dylib
 
-2.这两个文件不可以被删除或移动到任意位置，因为他们的路径被记录在目标App的读取路径中。
+insert_dylib是一个注入工具，将体验代码注入到目标程序中。
+如果你```sudo insert_dylib```无法执行，请给文件加上可执行权限:
+    ```sudo chmod +x insert_dylib```
+
+2.这两个文件不可以被删除或移动到任意位置，因为他们的路径被记录在目标App的读取路径中。可以放到App文件内，这样可以和App一起携带走。
 
 3.复制一份下面指南中提到的文件。
 
@@ -34,9 +40,15 @@ this repo use for publish the crack file.
 
 就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
 
-4.sudo insert_dylib libInlineInjectPlugin.dylib /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
+4. 执行注入
 
-5.结束。切记不要激活后就把dylib文件给移动位置或者删除，实际注入还是需要他们！！！
+```bash
+sudo insert_dylib文件全路径 libInlineInjectPlugin.dylib文件的全路径 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
+```
+
+5.结束。
+
+切记不要激活后就把libInlineInjectPlugin.dylib文件给移动位置或者删除，实际注入还是需要他！！！
 
 # Instructions: First of all, u must known somthing
 
@@ -60,25 +72,26 @@ But u known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't affo
 
 If u use my injection files...
 
-| AppName                                             | Version             | Source                                                                                                          |
-|-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|
-| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | AppleStore                                                                                                      |
-| Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |
-| Fig Player[^fig_player]                             | v1.2.2(2023022001)  | AppleStore                                                                                                      |
-| Bandizip365[^bandizip365]                           | v7.20               | AppleStore                                                                                                      |
-| Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |
-| Record it Pro[^record_it_pro]                       | v1.7.6              | AppStore                                                                                                        |
-| PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |
-| Sublime Text Dev[^sublimetext]                      | v4147               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4147_mac.zip)                          |
-| CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |
-| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |
-| PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |
-| MWeb Pro[^mwebpro]                                  | v4.4.91              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |
-| Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |
-| iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |
-| AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |
-| SuperRightKey[^irightmouse]                         | v2.2.3              | AppleStore                                                                                                      |
-| Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |
+| AppName                                             | Version             | Download link(Click it!)                                                                                                          |Crack Reason|
+|-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
+| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | AppleStore                                                                                                      |I would like to do it|
+| Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |I would like to do it|
+| Fig Player[^fig_player]                             | v1.2.2(2023022001)  | AppleStore                                                                                                      |I would like to do it|
+| Bandizip365[^bandizip365]                           | v7.21               | [AppleStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |I would like to do it|
+| Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |I would like to do it|
+| Record it Pro[^record_it_pro]                       | v1.7.6              | AppStore                                                                                                        |I would like to do it|
+| PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |I would like to do it|
+| Sublime Text Dev[^sublimetext]                      | v4148               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |I would like to do it|
+| CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
+| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
+| PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
+| MWeb Pro[^mwebpro]                                  | v4.4.91              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
+| Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |I would like to do it|
+| iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
+| AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |I would like to do it|
+| SuperRightKey[^irightmouse]                         | v2.2.3              | AppleStore                                                                                                      |I would like to do it|
+| 解忧2[^bestzip2]                         | v1.6.0              | [AppleStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI Beautify and i like it|
+| Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
 
 ## Q&A
 
@@ -94,6 +107,13 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
 # Tips
+
+[^bestzip2]: 解优2
+
+    这是一个我接触MacBook就开始眼馋的App。因为当时刚出来一代的时候AppStore霸榜第一的实力足以让我垂涎欲滴。
+    1. Copy /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel to /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel的副本
+    2. ```sudo insert_dylib /Users/qiuchenly/...YOUR...PATH...!!!!.../libInlineInjectPlugin.dylib /Applications/BestZip\ 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel的副本 /Applications/BestZip\ 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel```
+    3. Ok.Open it and read activation's from Preference.
 
 [^ulysses]: Ulysses
 
