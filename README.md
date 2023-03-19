@@ -91,7 +91,8 @@ If u use my injection files...
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |I would like to do it|
 | SuperRightKey[^irightmouse]                         | v2.2.3              | AppleStore                                                                                                      |I would like to do it|
 | 解忧2[^bestzip2]                         | v1.6.0              | [AppleStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI Beautify and i like it|
-| OmniPlayer[^OmniPlayer]                         | v2.0.18              | [AppleStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
+| OmniPlayer[^omniPlayer]                         | v2.0.18              | [AppleStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
+| Filmage Screen[^FilmageScreen]                         | v1.4.7              | [Official Site Link](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |just because i was bored|
 | Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
 
 ## Q&A
@@ -109,7 +110,13 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 
 # Tips
 
-[^OmniPlayer] OmniPlayer
+
+[^FilmageScreen]: FilmageScreen
+    1. Copy /Applications/Filmage Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac to /Applications/Filmage Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac的副本
+    2. sudo insert_dylib /你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Filmage\ Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac的副本 /Applications/Filmage\ Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac
+    3. ok.
+
+[^omniPlayer]: OmniPlayer
 
     1. Copy /Applications/OmniPlayerStore.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster to /Applications/OmniPlayerStore.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster的副本
     2. sudo insert_dylib /Users/qiuchenly/...YOUR...FILE...PATH...!!!.../libInlineInjectPlugin.dylib /Applications/OmniPlayerStore.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster的副本 /Applications/OmniPlayerStore.app/Contents/Frameworks/XADMaster.framework/Versions/A/XADMaster
