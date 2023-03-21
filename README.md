@@ -1,4 +1,4 @@
-# Crack Apps for My Mac / Update 2023.03.19
+# Crack Apps for My Mac / Update 2023.03.22
 
 **All File Only Support X86_64 Mac**
 
@@ -14,11 +14,14 @@ this repo use for publish the crack file.
 
 用户: QiuChenly
 
-## 你写的我看不懂，怎么用？
+## 中文使用说明
 
 老天天有人说看不懂怎么用有没有成品。
 
-声明: 本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。因使用者传播者传播破解软件导致的任何法律责任与包括但不仅限于引起系统故障 财产损失等问题作者概不负责。
+声明: 
+本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。
+不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
+因使用者传播者传播破解软件导致的任何法律责任与包括但不仅限于引起系统故障 财产损失等问题作者概不负责。
 
 还要成品，嫌哥们4⃣️的不够快是吧😓。
 
@@ -32,9 +35,9 @@ insert_dylib是一个注入工具，将体验代码注入到目标程序中。
 如果你```sudo insert_dylib```无法执行，请给文件加上可执行权限:
     ```sudo chmod +x insert_dylib```
 
-2.这两个文件不可以被删除或移动到任意位置，因为他们的路径被记录在目标App的读取路径中。可以放到App文件内，这样可以和App一起携带走。
+2.**libInlineInjectPlugin.dylib**这个文件不可以被删除或移动到任意位置，因为他的路径被记录在目标App的读取路径中。但是你把它放到.app文件内，这样可以和App一起携带走。
 
-3.复制一份下面指南中提到的文件。
+3.复制一份下面Tips指南中提到的文件。
 
 如copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to ‘/Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本’
 
@@ -74,26 +77,27 @@ If u use my injection files...
 
 | AppName                                             | Version             | Download link(Click it!)                                                                                                          |Crack Reason|
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | AppleStore                                                                                                      |I would like to do it|
+| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | MacAppStore                                                                                                      |I would like to do it|
 | Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |I would like to do it|
-| Fig Player[^fig_player]                             | v1.2.2(2023022001)  | AppleStore                                                                                                      |I would like to do it|
-| Bandizip365[^bandizip365]                           | v7.21               | [AppleStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |I would like to do it|
+| Fig Player[^fig_player]                             | v1.2.2(2023022001)  | MacAppStore                                                                                                      |I would like to do it|
+| Bandizip365[^bandizip365]                           | v7.21               | [MacAppStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |I would like to do it|
 | Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |I would like to do it|
-| Record it Pro[^record_it_pro]                       | v1.7.6              | AppStore                                                                                                        |I would like to do it|
+| Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |I would like to do it|
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |I would like to do it|
 | Sublime Text Dev[^sublimetext]                      | v4148               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |I would like to do it|
 | CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
-| MWeb Pro[^mwebpro]                                  | v4.4.1              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
-| Ulysses[^ulysses]                                   | v29.4               | AppleStore                                                                                                      |I would like to do it|
-| iShot[^ishot]                                       | v2.3.2              | AppleStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
-| AutoSwitchInput[^autoswitch]                        | v2.2.1              | AppleStore                                                                                                      |I would like to do it|
-| SuperRightKey[^irightmouse]                         | v2.2.3              | AppleStore                                                                                                      |I would like to do it|
-| 解忧2[^bestzip2]                         | v1.6.0              | [AppleStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI Beautify and i like it|
-| OmniPlayer[^omniPlayer]                         | v2.0.18              | [AppleStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
+| MWeb Pro[^mwebpro]                                  | v4.4.2              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
+| Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |I would like to do it|
+| iShot[^ishot]                                       | v2.3.2              | MacAppStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
+| AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |I would like to do it|
+| SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |I would like to do it|
+| 解优2[^bestzip2]                         | v1.6.0              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI Beautify and i like it|
+| OmniPlayer[^omniPlayer]                         | v2.0.18              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [Official Site Link](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |just because i was bored|
 | Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
+|Navicat Premium[^Navicat] |v16.1.7|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
 
 ## Q&A
 
@@ -110,6 +114,10 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 
 # Tips
 
+[^Navicat]: Navicat Premium
+    1. Copy /Applications/Navicat Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView to /Applications/Navicat Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView的副本.
+    2. sudo insert_dylib /你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Navicat\ Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView的副本 /Applications/Navicat\ Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView
+    3. ok.
 
 [^FilmageScreen]: FilmageScreen
     1. Copy /Applications/Filmage Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac to /Applications/Filmage Screen.app/Contents/Frameworks/KMDrawViewSDK_Mac.framework/Versions/A/KMDrawViewSDK_Mac的副本
