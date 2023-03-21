@@ -98,6 +98,7 @@ If u use my injection files...
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [Official Site Link](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |just because i was bored|
 | Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
 |Navicat Premium[^Navicat] |v16.1.7|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
+|Infuse Pro[^Infuse] |v7.5.4381|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|because it so beautify...|
 
 ## Q&A
 
@@ -113,6 +114,11 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
 # Tips
+
+[^Infuse]: Infuse Pro
+    1. Copy /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP to /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP的副本.
+    2. sudo insert_dylib /你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP的副本 /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP
+    3. ok.
 
 [^Navicat]: Navicat Premium
     1. Copy /Applications/Navicat Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView to /Applications/Navicat Premium.app/Contents/Frameworks/NAVTabBarView.framework/Versions/A/NAVTabBarView的副本.
