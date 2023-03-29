@@ -85,7 +85,7 @@ If u use my injection files...
 | Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |I would like to do it|
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |I would like to do it|
 | Sublime Text Dev[^sublimetext]                      | v4148               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |I would like to do it|
-| CleanMyMac Beta[^cmm]                               | v4.13.0b2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
+| CleanMyMac X[^cmm]                               | v4.13.0           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
 | MWeb Pro[^mwebpro]                                  | v4.4.2              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
