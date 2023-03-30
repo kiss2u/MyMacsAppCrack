@@ -149,7 +149,7 @@ sudo xattr -d com.apple.quarantine "${mac_app}"  >/dev/null 2>&1
 # 打印提示语
 echo " "
 printf "已移除隔离属性，App破解成功。（Mac是M1及以上系列，请以Rosetta运行）\n"
-printf "Cracked，Have a good time. by hoochanlon."
+printf "Cracked，Have a good time. by hoochanlon. \n"
 # ----  对新手的友好优化，去隔离属性 -------
 
 
