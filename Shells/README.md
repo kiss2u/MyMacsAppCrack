@@ -53,6 +53,10 @@ sudo bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com
 
 **以 解优2  为例**
 
+使用脚本前
+
+![](https://cdn.jsdelivr.net/gh/hoochanlon/ihs-simple/AQUICK/catch2023-03-30%2019.05.17.png)
+
 复制粘贴到终端，并将程序拖入到终端，即可。
 
 ```shell
@@ -61,11 +65,8 @@ sudo bash -c "$(curl -fsSL https://ghproxy.com/https://raw.githubusercontent.com
 
 ![](https://cdn.jsdelivr.net/gh/hoochanlon/ihs-simple/AQUICK/catch2023-03-30%2019.15.50.png)
 
-使用前
 
-![](https://cdn.jsdelivr.net/gh/hoochanlon/ihs-simple/AQUICK/catch2023-03-30%2019.05.17.png)
-
-使用后
+使用脚本后
 
 ![](https://cdn.jsdelivr.net/gh/hoochanlon/ihs-simple/AQUICK/catch2023-03-30%2019.25.26.png)
 
