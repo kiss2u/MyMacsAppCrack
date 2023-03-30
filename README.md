@@ -53,6 +53,8 @@ sudo insert_dylib文件全路径 libInlineInjectPlugin.dylib文件的全路径 /
 
 切记不要激活后就把libInlineInjectPlugin.dylib文件给移动位置或者删除，实际注入还是需要他！！！
 
+最后，附简单使用的懒人傻瓜式脚本，👉 [一键自动化的简单操作说明](./Shells/README.md)。
+
 # Instructions: First of all, u must known somthing
 
 ## Q: Where is the Injection Files?
@@ -115,6 +117,7 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 
 # QQ吹牛群【禁止明目张胆聊pj，想想你人在哪里】
 ![6918634eafb967e68b4c8926ea0f9dab](assets/6918634eafb967e68b4c8926ea0f9dab.png)
+
 可以问技术问题 不要向群主或任何人索取破解资源之类的文件 看见一个ban一个
 
 # Tips
