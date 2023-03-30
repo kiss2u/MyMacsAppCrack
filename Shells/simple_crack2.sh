@@ -17,8 +17,8 @@
 ### 2. clean my Mac M1使用Rosetta依旧失效
 # -----------------------------
 
-printf "\n simple_crack2.sh 使用温馨提示 \n"
-printf "该脚本仅适用于“xxx.app/Contents/Frameworks/...”的目录结构程序，请细看 README #Tips 说明。"
+printf "\nsimple_crack2.sh 使用温馨提示 \n"
+printf "\n该脚本仅适用于“xxx.app/Contents/Frameworks/...”的目录结构程序，请细看 README #Tips 说明。\n"
 printf "\n若目录结构为“xxx.app/Contents/MacOS/xxx”，请使用项目里的 Shells/simple_crack.sh\n"
 
 # ------ 进度条 --------------
@@ -62,7 +62,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "KMDrawViewSDK_Mac" -type f)
@@ -70,7 +69,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "Sparkle" -type f)
@@ -78,7 +76,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "PTHotKey" -type f)
@@ -86,7 +83,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "XADMaster" -type f)
@@ -94,7 +90,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "KissXML" -type f)
@@ -102,7 +97,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "JSONModel" -type f)
@@ -110,7 +104,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "JSONModel" -type f)
@@ -118,7 +111,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "NAVTabBarView" -type f)
@@ -126,7 +118,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "GZIP" -type f)
@@ -134,7 +125,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
     findx=$(find "${mac_app}" -name "ShortcutRecorder" -type f)
@@ -142,7 +132,6 @@ if [ "$executed" = false ]; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
         executed=true
-        break
     fi
 
 
@@ -150,10 +139,8 @@ if [ "$executed" = false ]; then
     if [ -n "$findx" ] >/dev/null 2>&1; then
         sudo cp -p "${findx}" "${findx}_副本"
         sudo $insert_dylib $libInlineInjectPluginDotdylib "${findx}_副本" "${findx}"
-        break
     fi
 
-    break
 fi
 #---- 定义文件执行顺序规则 -----------
 
