@@ -17,9 +17,9 @@
 ### 2. clean my Mac M1使用Rosetta依旧失效
 # -----------------------------
 
-echo "温馨提示"
-echo "该脚本仅适用于“xxx.app/Contents/Frameworks/...”的目录结构程序，请细看 README #Tips 说明。"
-echo "若目录结构为“xxx.app/Contents/MacOS/xxx”，请使用项目里的 Shells/simple_crack.sh"
+printf "\n simple_crack2.sh 使用温馨提示 \n"
+printf "该脚本仅适用于“xxx.app/Contents/Frameworks/...”的目录结构程序，请细看 README #Tips 说明。"
+printf "\n若目录结构为“xxx.app/Contents/MacOS/xxx”，请使用项目里的 Shells/simple_crack.sh\n"
 
 # ------ 进度条 --------------
 # [csdn-Shell脚本实现进度条的两种方式](https://blog.csdn.net/Sudley/article/details/113918174)
@@ -161,9 +161,8 @@ fi
 sudo xattr -d com.apple.quarantine "${mac_app}"  >/dev/null 2>&1
 # 打印提示语
 echo " "
-echo " "
-echo "已移除隔离属性，App破解成功。"
-echo "Mac 是M1及以上系列的，请以Rosetta运行。"
+printf "已移除隔离属性，App破解成功。（Mac是M1及以上系列，请以Rosetta运行）\n"
+printf "Cracked，Have a good time. by hoochanlon."
 # ----  对新手的友好优化，去隔离属性 -------
 
 
