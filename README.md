@@ -123,7 +123,7 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 
 # Tips
 
-[^excel365] Office Excel365
+[^excel365]: Office Excel 365/Office PowerPoint 365/Office Word 365
     1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
     2. sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Microsoft\ Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本 /Applications/Microsoft\ Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI
     3. ok.
