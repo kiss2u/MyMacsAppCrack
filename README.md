@@ -1,4 +1,4 @@
-# Crack Apps for My Mac / Update 2023.03.22
+# Crack Apps for My Mac / Update 2023.04.06
 
 **All File Only Support X86_64 Mac**
 
@@ -101,6 +101,7 @@ If u use my injection files...
 | Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
 |Navicat Premium[^Navicat] |v16.1.7|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
 |Infuse Pro[^Infuse] |v7.5.1 (7.5.4394)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|because it so beautify...|
+|Microsoft Office Excel 365[^excel365] |v16.71|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|The Product very Niubility |
 
 ## Q&A
 
@@ -121,6 +122,11 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 可以问技术问题 不要向群主或任何人索取破解资源之类的文件 看见一个ban一个
 
 # Tips
+
+[^excel365] Office Excel365
+    1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
+    2. sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Microsoft\ Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本 /Applications/Microsoft\ Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI
+    3. ok.
 
 [^Infuse]: Infuse Pro
     1. Copy /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP to /Applications/Infuse.app/Contents/Frameworks/GZIP.framework/Versions/A/GZIP的副本.
