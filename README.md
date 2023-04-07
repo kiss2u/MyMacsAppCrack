@@ -116,10 +116,7 @@ See and click right of AppName's annotate like 1,2...17----then read the 'Tips' 
 
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
-# QQ吹牛群【禁止明目张胆聊pj，想想你人在哪里】
-![6918634eafb967e68b4c8926ea0f9dab](assets/6918634eafb967e68b4c8926ea0f9dab.png)
-
-可以问技术问题 不要向群主或任何人索取破解资源之类的文件 看见一个ban一个
+# QQ吹牛群 群没了
 
 # Tips
 
