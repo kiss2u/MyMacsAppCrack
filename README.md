@@ -88,9 +88,9 @@ If u use my injection files...
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |I would like to do it|
 | Sublime Text Dev[^sublimetext]                      | v4148               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |I would like to do it|
 | CleanMyMac X[^cmm]                               | v4.13.2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
-| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.1                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
+| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
 | PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
-| MWeb Pro[^mwebpro]                                  | v4.4.2              | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
+| MWeb Pro[^mwebpro]                                  | v4.4.3 - 直接通杀后续版本             | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
 | Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |I would like to do it|
 | iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |I would like to do it|
@@ -99,7 +99,7 @@ If u use my injection files...
 | OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [Official Site Link](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |just because i was bored|
 | Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
-|Navicat Premium[^Navicat] |v16.1.7|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
+|Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
 |Infuse Pro[^Infuse] |v7.5.1 (7.5.4394)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|because it so beautify...|
 |Microsoft Office Excel 365[^excel365] |v16.71|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|The Product very Niubility |
 
