@@ -1,124 +1,58 @@
-# Crack Apps for My Mac / Update 2023.04.06
+<center><font size=8>Crack Apps Inject Plugin</font></center>
+<center>For My Mac K'ed By QiuChenly(秋城落叶)</center>
+<center>Update 2023.04.13</center>
+<center>
+<a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a>
+</center>
 
-**All File Only Support X86_64 Mac**
+# 注入补丁支持的App列表一览 
+数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接
 
-**But M1/M2 Mac Can Open 'Rosetta 运行' to use!**
-
-this repo use for publish the crack file.
-
-**K'ed By 秋城落叶 2023◎QiuChenly.**
-
-## 吾爱破解围观破解过程
-
-[macOS 逆向区](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
-
-用户: QiuChenly
-
-## 中文使用说明
-
-老天天有人说看不懂怎么用有没有成品。
-
-声明: 
-本项目仅交流学习软件安全技术使用，不会发布任何形式的成品，也没有任何聊天群和组织，更不会收取任何人一分钱，各位谨防受骗。
-不要将本项目研究成果进行传播破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
-因使用者传播者传播破解软件导致的任何法律责任与包括但不仅限于引起系统故障 财产损失等问题作者概不负责。
-
-还要成品，嫌哥们4⃣️的不够快是吧😓。
-
-这里重新用中文写一份使用方法，这下中文能看懂了吧：
-
-0.首先关闭SIP。M1/M2机器使用需要在应用详情中勾选"Rosetta 运行"才可以正常注入。
-
-1.下载Tools里面的两个文件: insert_dylib libInlineInjectPlugin.dylib
-
-insert_dylib是一个注入工具，将体验代码注入到目标程序中。
-如果你```sudo insert_dylib```无法执行，请给文件加上可执行权限:
-    ```sudo chmod +x insert_dylib```
-
-2.**libInlineInjectPlugin.dylib**这个文件不可以被删除或移动到任意位置，因为他的路径被记录在目标App的读取路径中。但是你把它放到.app文件内，这样可以和App一起携带走。
-
-3.复制一份下面Tips指南中提到的文件。
-
-如copy /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder to ‘/Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本’
-
-就是让你把‘OmniRecorder’这个文件复制一份为‘OmniRecorder_副本’。
-
-4.执行注入
-
-```bash
-sudo insert_dylib文件全路径 libInlineInjectPlugin.dylib文件的全路径 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder_副本 /Applications/OmniRecorder.app/Contents/MacOS/OmniRecorder
-```
-
-5.结束。
-
-切记不要激活后就把libInlineInjectPlugin.dylib文件给移动位置或者删除，实际注入还是需要他！！！
-
-最后，附简单使用的懒人傻瓜式脚本，👉 [一键自动化的简单操作说明](./Shells/README.md)。
-
-# Instructions: First of all, u must known somthing
-
-## Q: Where is the Injection Files?
-
-A: The `insert_dylib` & `libInlineInjectPlugin.dylib` locate to `'Tools'` Folder.
-
-## Q: File `insert_dylib` is...?
-
-A: this is a inject Tool, it can inject `libInlineInjectPlugin.dylib` to target App runtimes.
-
-## Q: File `libInlineInjectPlugin.dylib` is...?
-
-A: Some crack code, can Hook&Modify Target App's AssemblerCode.
-
-# How exciting! I cracked the mac application with the RAM Patch. Now the file size is about 100KB
-
-But u known, i'm so hard up, can only affordable MBP 16'' 2019 Model, can't afford M1 Mac.I am so sad without money.So the Cracked Patch **Just Support X86_64 Mac**.
-
-# Here are some my own crack'd software list
-
-If u use my injection files...
-
-| AppName                                             | Version             | Download link(Click it!)                                                                                                          |Crack Reason|
+| App名称                                             | 支持的版本             | 下载链接                                                                                                          |破解原因|
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
-| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | MacAppStore                                                                                                      |I would like to do it|
-| Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [Official Site Link](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |I would like to do it|
-| Fig Player[^fig_player]                             | v1.2.3(2023032401)  | MacAppStore                                                                                                      |I would like to do it|
-| Bandizip365[^bandizip365]                           | v7.22               | [MacAppStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |I would like to do it|
-| Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [Official Site Link](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |I would like to do it|
-| Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |I would like to do it|
-| PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |I would like to do it|
-| Sublime Text Dev[^sublimetext]                      | v4148               | [Official Site Link](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |I would like to do it|
-| CleanMyMac X[^cmm]                               | v4.13.2           | [Official Site Link](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |I would like to do it|
-| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [Official Site Link](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |I would like to do it|
-| PopClip[^popclip]                                   | v2022.12            | [Official Site Link](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |I would like to do it|
-| MWeb Pro[^mwebpro]                                  | v4.4.3 - 直接通杀后续版本             | [Official Site Link](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |I would like to do it|
-| Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |I would like to do it|
-| iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |What a Niubility and glorious Apps of domestic application!|
-| AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |I would like to do it|
-| SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |I would like to do it|
-| 解优2[^bestzip2]                         | v1.6.0              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI Beautify and i like it|
-| OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI Beautify and i like it|
-| Filmage Screen[^FilmageScreen]                         | v1.4.7              | [Official Site Link](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |just because i was bored|
-| Xmind[^xmind]                                       | v22.11.3656         | [Official Site Link](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |I would like to do it|
-|Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|I love it so much!|
-|Infuse Pro[^Infuse] |v7.5.1 (7.5.4394)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|because it so beautify...|
-|Microsoft Office Excel 365[^excel365] |v16.71|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|The Product very Niubility |
+| Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | MacAppStore                                                                                                      |随便破破|
+| Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [官方下载链接](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |随便破破|
+| Fig Player[^fig_player]                             | v1.2.3(2023032401)  | MacAppStore                                                                                                      |随便破破|
+| Bandizip365[^bandizip365]                           | v7.22               | [MacAppStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |随便破破|
+| Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [官方下载链接](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |随便破破|
+| Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |随便破破|
+| PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |随便破破|
+| Sublime Text Dev[^sublimetext]                      | v4148               | [官方下载链接](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |随便破破|
+| CleanMyMac X[^cmm]                               | v4.13.2           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
+| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [官方下载链接](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |随便破破|
+| PopClip[^popclip]                                   | v2022.12            | [官方下载链接](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |随便破破|
+| MWeb Pro[^mwebpro]                                  | v4.4.4 - 直接通杀后续版本             | [官方下载链接](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |随便破破|
+| Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |随便破破|
+| iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |国产App之光，谨此致敬🫡|
+| AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |随便破破|
+| SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |随便破破|
+| 解优2[^bestzip2]                         | v1.6.0              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI 很好看|
+| OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
+| Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
+| Xmind[^xmind]                                       | v22.11.3656         | [官方下载链接](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |随便破破|
+|Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
+|Infuse Pro[^Infuse] |v7.5.1 (7.5.4394)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 
 ## Q&A
 
-### it safe?
+### 注入补丁是否安全?
 
-yes, all opensource,you can read this:
+至少比你下的TNT破解版安全。
+部分破解过程可以看过来:
 [How To Crack Macs Fan Control?](./howtocrack.md)
+[52破解论坛](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
 
-### how to crack?
+### 怎么破解?
 
-See and click right of AppName's annotate like 1,2...17----then read the 'Tips' on below.
+点击App名称上面的数字上标1,2...17----然后看下方的提示.
 
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
-# QQ吹牛群 群没了
+# QQ吹牛群 
+群没了 别加了 避免被说成引流
 
-# Tips
+# 注入小贴士
 
 [^excel365]: Office Excel 365/Office PowerPoint 365/Office Word 365
     1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
