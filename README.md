@@ -1,12 +1,13 @@
-<center><font size=8>Crack Apps Inject Plugin</font></center>
-<center>For My Mac K'ed By QiuChenly(秋城落叶)</center>
-<center>Update 2023.04.13</center>
-<center>
-<a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a>
-</center>
+# <p align="center">Crack Apps Inject Plugin</p>
+### <p align="center">For My Mac K'ed By QiuChenly(秋城落叶)</p>
+### <p align="center">Update 2023.04.13</p>
 
-# 注入补丁支持的App列表一览 
+<p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
+
+# <p align="center">注入补丁支持的App列表一览</p>
+<p align="center">
 数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接
+</p>
 
 | App名称                                             | 支持的版本             | 下载链接                                                                                                          |破解原因|
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
