@@ -1,4 +1,6 @@
-<center><font size=8>Crack Apps Inject Plugin</font></center>
+<center>
+<font size=8>Crack Apps Inject Plugin</font>
+</center>
 <center>For My Mac K'ed By QiuChenly(秋城落叶)</center>
 <center>Update 2023.04.20</center>
 <center>
@@ -6,6 +8,7 @@
 </center>
 
 ### 点击上方的中文/英文查看具体使用方法
+
 每次github文件更新后及时下载更新, 我希望看到的是大家愉快的使用我的智慧成果而不是有小可爱拿旧版本文件问我为什么激活不了新版本，那我倒是要问问你，为什么不下载新的补丁文件？
 
 然后还有Dinner加群专门问我为什么不能激活新版本的App，你拿着清朝的剑斩本朝的官我都懒得喷你了。
