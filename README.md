@@ -1,13 +1,21 @@
-# <p align="center">Crack Apps Inject Plugin</p>
-### <p align="center">For My Mac K'ed By QiuChenly(秋城落叶)</p>
-### <p align="center">Update 2023.04.13</p>
+<center><font size=8>Crack Apps Inject Plugin</font></center>
+<center>For My Mac K'ed By QiuChenly(秋城落叶)</center>
+<center>Update 2023.04.20</center>
+<center>
+<a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a>
+</center>
 
-<p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
+### 点击上方的中文/英文查看具体使用方法
+每次github文件更新后及时下载更新, 我希望看到的是大家愉快的使用我的智慧成果而不是有小可爱拿旧版本文件问我为什么激活不了新版本，那我倒是要问问你，为什么不下载新的补丁文件？
 
-# <p align="center">注入补丁支持的App列表一览</p>
-<p align="center">
+然后还有Dinner加群专门问我为什么不能激活新版本的App，你拿着清朝的剑斩本朝的官我都懒得喷你了。
+
+有的人好像产生一种错觉，我的目的是学习研究破解技术而不是盗版软件售后，老子不是tmd卖破解软件的！
+
+我开源个项目还给你当客服？开源软件爱用就用不爱用就滚！另外，都tm用破解软件了连SIP都不会关的dinner也滚一边，有不要脸还来问我SIP怎么关的我上来就骂。你可以不知道怎么关但是连百度都不会用那确实低能，这种人我建议你别用macOS了，你不适合用电脑。
+
+# 注入补丁支持的App列表一览 
 数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接
-</p>
 
 | App名称                                             | 支持的版本             | 下载链接                                                                                                          |破解原因|
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -32,17 +40,57 @@
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
 | Xmind[^xmind]                                       | v22.11.3656         | [官方下载链接](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
-|Infuse Pro[^Infuse] |v7.5.1 (7.5.4394)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Infuse Pro[^Infuse] |v7.5.2 (7.5.4410)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 
 ## Q&A
+
+### 指南:对非专业IT人士
+我一点都没学过软件，你说的操作步骤我根本看不懂啊！
+好，那我就在此认认真真的跟你讲一遍怎么用.
+1. 下载zip压缩包:
+    ![](media/16819809573287.jpg)
+2. 解压得到:
+    ![](media/16819809983900.jpg)
+3. 找到某个目标app,查看注入位置:
+    ![](media/16819811321427.jpg)
+    跳转到对应说明
+    ![](media/16819810903366.jpg)
+4. 这里iShot举例，第一步复制文件PTHotkey为PTHotkey_副本。
+5. 第二步打开终端输入:
+    ![](media/16819812468264.jpg)
+    输入sudo+空格+拖入insert_dylib文件+空格+拖入dylib文件+空格。注意是他妈的全路径！！不是文件名！！ 
+    最后看起来如下所示：
+    ![](media/16819815456397.jpg)
+    错误示范:
+    ![](media/16819815924314.jpg)
+6. 拖入第一步复制好的文件,如下:
+    ![](media/16819818525680.jpg)
+    按下回车重新打开App即可。所有操作的文件全都是完整路径，下方注入说明写的不详细是因为我认为这是常识。
+    一定要拖入，而不要他妈的偷懒自作聪明复制文件路径粘贴到终端上去！你觉得你很聪明？楼主看到这种自作聪明的小可爱都笑嘻了。
+    有些app文件名有空格你单纯复制路径是不会自动转义的！
+    千万要记住是直！接！用！鼠标拖动文件到终端上！他会自动加上空格！
+
+补充说明：
+你以为老子想写这么多废话？他妈的要是傻逼网友少一点我三句话就结束了，这届网友他妈了隔壁的破解软件都不会用，真的是nmd令我失望。
+
+写这么多跟技术有关的一句没有，全是他妈的在解决弱智问题。你要是实在用不了就别用了，没人求你用，自己dinner不要觉得别人跟你一样dinner。
+
+还有，版本更新快不快取决于我能不能第一时间发现新版本并patch，如果我没有更新你就别升级，升级完了老子都没发布升级补丁，在那用不了就开始叫唤，我欠你的？
+### 指南:对IT专业人士的指南
+搞技术的终端都会用吧？
+```
+sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路径 /Appxxx/xxx/xxx副本 /Appxxx/xxx/xxx
+```
+回车并重新打开app即可。
 
 ### 注入补丁是否安全?
 
 至少比你下的TNT破解版安全。
 部分破解过程可以看过来:
-[How To Crack Macs Fan Control?](./howtocrack.md)
-[52破解论坛](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
+1. [How To Crack Macs Fan Control?](./howtocrack.md)
+
+2. [52破解论坛](https://www.52pojie.cn/forum.php?mod=forumdisplay&fid=5&filter=typeid&typeid=377)
 
 ### 怎么破解?
 
