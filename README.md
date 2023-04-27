@@ -40,13 +40,15 @@
 | iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |国产App之光，谨此致敬🫡|
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |随便破破|
 | SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |随便破破|
-| 解优2[^bestzip2]                         | v1.6.0              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI 很好看|
+| 解优2[^bestzip2]                         | v1.6.1              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI 很好看|
 | OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
 | Xmind[^xmind]                                       | v22.11.3656         | [官方下载链接](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.2 (7.5.4410)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
+|Adobe PhotoShop CC[^photosp] |v24.4.1/v24.2.0|官方Creative Cloud中下载|设计领域最牛逼的产品|
+
 
 ## Q&A
 
@@ -107,6 +109,12 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 群没了 别加了 避免被说成引流
 
 # 注入小贴士
+
+[^photosp]: Adobe PhotoShop Creative Cloud Edition
+    0. 从官方Adobe CC工具中下载官方正版，别从不知名的地方下。
+    1. Copy /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE to /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE_副本
+    2. sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE_副本 /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE
+    3. ok.
 
 [^excel365]: Office Excel 365/Office PowerPoint 365/Office Word 365
     1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
