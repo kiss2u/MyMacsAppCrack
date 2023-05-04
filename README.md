@@ -183,6 +183,7 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 
 ## Adobe Acrobat 23.001.20143
 同上。
+注意这个App有一个Adobe Acrobat Distiller 应用程序，Distiller这个App里面同样的文件注入进去即可使用。
 
 # 注入小贴士
 
