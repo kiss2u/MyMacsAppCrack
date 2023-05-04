@@ -124,8 +124,6 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 
 # Adobe 全系破解
 
-
-
 省流:
 
 除了Adobe XD，其他App都是AdobeAGM.framework/Versions/A/AdobeAGM这个文件注入进去。
@@ -182,6 +180,9 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 
 ## Adobe PhotoShop 24.4.1
 同上。也可以注入到AdobeARE文件里面，都行。
+
+## Adobe Acrobat 23.001.20143
+同上。
 
 # 注入小贴士
 
