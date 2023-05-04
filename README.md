@@ -46,7 +46,7 @@ U R B B R,G R O U GAY!
 | Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |随便破破|
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |随便破破|
 | Sublime Text Dev[^sublimetext]                      | v4148               | [官方下载链接](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |随便破破|
-| CleanMyMac X[^cmm]                               | v4.13.2           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
+| CleanMyMac X[^cmm]                               | v4.13.3           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [官方下载链接](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |随便破破|
 | PopClip[^popclip]                                   | v2022.12            | [官方下载链接](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |随便破破|
 | MWeb Pro[^mwebpro]                                  | v4.4.4 - 直接通杀后续版本             | [官方下载链接](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |随便破破|
