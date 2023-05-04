@@ -108,7 +108,19 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 # QQ吹牛群 
 群没了 别加了 避免被说成引流
 
+# Adobe 全系破解
+支持
+PS AE PR Adobe Encoder
+```
+sudo insert_dylib /Users/qiuchenly/Library/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Lightroom\ Classic/Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
+
+
 # 注入小贴士
+
+[^lrc]: Adobe Photoshop Lightroom Classic
+
+    2. sudo insert_dylib /Users/qiuchenly/Library/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Lightroom\ Classic/Adobe\ Lightroom\ Classic.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Lightroom\ Classic/Adobe\ Lightroom\ Classic.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 
 [^photosp]: Adobe PhotoShop Creative Cloud Edition
     0. 从官方Adobe CC工具中下载官方正版，别从不知名的地方下。
