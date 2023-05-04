@@ -1,22 +1,36 @@
-###
-<center>
-<font size=8>Crack Apps Inject Plugin</font>
-</center>
-<center>For My Mac K'ed By QiuChenly(秋城落叶)</center>
-<center>Update 2023.04.20</center>
-<center>
-<a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a>
-</center>
 
-### <center>点击上方的中文/英文查看具体使用方法</center>
+# <p align="center">macOS Apps Inject Plugin</p>
 
-&nbsp;&nbsp;每次github文件更新后及时下载更新, 我希望看到的是大家愉快的使用我的智慧成果而不是有小可爱拿旧版本文件问我为什么激活不了新版本，那我倒是要问问你，为什么不下载新的补丁文件？
+<p align="center">K'ed By QiuChenly(秋城落叶)</p>
+<p align="center">为我的Mac独奏MVP凯歌</p>
+<p align="center">Powered By 青海摇</p>
+<p align="center">更新日期 2023.05.04</p>
+<p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
+
+### <p align="center">查询作者的成分</p>
+女权主义者，爱狗人士，高技术力舔狗。
+
+b站抽象小鬼，烂梗之王，话题终结者。
+
+贴吧黄牌老东西，v8元老，孙笑川吧老东西。
+
+柯洁铁粉，七海娜娜米结晶人，冬雪莲男友粉，Otto棍孝子。
+
+火星包包孝子，引流之主EQQR炮车没🐎。
+
+青海社会摇2023代传人，但是不穿豆豆鞋紧身衣。
+
+西安摇强劲对手，苏南张诗尧，青海摇集大成者。
+
+U R B B R,G R O U GAY!
+
+### <p align="center">点击上方的中文/英文查看具体使用方法,或者翻到最下面查看说明</p>
+
+&nbsp;&nbsp;每次github文件更新后要及时下载更新, 我希望看到的是大家愉快的使用我的智慧成果而不是有小可爱拿旧版本文件问我为什么激活不了新版本，那我倒是要问问你，为什么不下载新的补丁文件？
 
 &nbsp;&nbsp;然后还有Dinner加群专门问我为什么不能激活新版本的App，你拿着清朝的剑斩本朝的官我都懒得喷你了。
 
-&nbsp;&nbsp;有的人好像产生一种错觉，我的目的是学习研究破解技术而不是盗版软件售后，老子不是tmd卖破解软件的！
-
-&nbsp;&nbsp;我开源个项目还给你当客服？开源软件爱用就用不爱用就滚！另外，都tm用破解软件了连SIP都不会关的dinner也滚一边，有不要脸还来问我SIP怎么关的我上来就骂。你可以不知道怎么关但是连百度都不会用那确实低能，这种人我建议你别用macOS了，你不适合用电脑。
+&nbsp;&nbsp;都用破解软件了连SIP都不会关的dinner滚一边，有不要脸还来问我SIP怎么关的我上来就骂。你可以不知道怎么关但是连百度都不会用那确实低能，这种人我建议你别用macOS了，你不适合用电脑。
 
 # <center>注入补丁支持的App列表一览 </center>
 
@@ -48,12 +62,13 @@
 |Infuse Pro[^Infuse] |v7.5.2 (7.5.4410)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe PhotoShop CC[^photosp] |v24.4.1/v24.2.0|官方Creative Cloud中下载|设计领域最牛逼的产品|
-
+|Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 
 ## Q&A
 
 ### 指南:对非专业IT人士
 我一点都没学过软件，你说的操作步骤我根本看不懂啊！
+
 好，那我就在此认认真真的跟你讲一遍怎么用.
 1. 下载zip压缩包:
     ![](media/16819809573287.jpg)
@@ -79,11 +94,10 @@
     千万要记住是直！接！用！鼠标拖动文件到终端上！他会自动加上空格！
 
 补充说明：
-你以为老子想写这么多废话？他妈的要是傻逼网友少一点我三句话就结束了，这届网友他妈了隔壁的破解软件都不会用，真的是nmd令我失望。
 
-写这么多跟技术有关的一句没有，全是他妈的在解决弱智问题。你要是实在用不了就别用了，没人求你用，自己dinner不要觉得别人跟你一样dinner。
+写这么多跟技术有关的一句没有，全tm在解决sb问题。你要是实在用不了就别用了，自己dinner不要觉得别人跟你一样dinner。
 
-还有，版本更新快不快取决于我能不能第一时间发现新版本并patch，如果我没有更新你就别升级，升级完了老子都没发布升级补丁，在那用不了就开始叫唤，我欠你的？
+还有，版本更新快不快取决于我能不能第一时间发现新版本并patch，如果我没有更新你就别升级，升级完了老子都没发布升级补丁，我欠你的？
 ### 指南:对IT专业人士的指南
 搞技术的终端都会用吧？
 ```
@@ -109,18 +123,67 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 群没了 别加了 避免被说成引流
 
 # Adobe 全系破解
-支持
-PS AE PR Adobe Encoder
+
+
+
+省流:
+
+除了Adobe XD，其他App都是AdobeAGM.framework/Versions/A/AdobeAGM这个文件注入进去。
+
+下方没有列出来的版本表示暂不支持。
+
+另外，补丁只支持Intel Mac，M1/M2电脑据群友反馈说打开Rosseta可以运行，你们自己测试吧。
+
+参考注入代码: 
+
+看不懂的换个脑子就好了
 ```
-sudo insert_dylib /Users/qiuchenly/Library/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Lightroom\ Classic/Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+sudo insert_dylib /你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM副本
+ Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 ```
 
+
+## Adobe XD 版本 56.1.12.1
+注入文件: /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb
+```
+sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb_副本 /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb
+```
+
+## Adobe Audition 2023 23.3
+注入文件: /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
+sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
+
+## Adobe Illustrator 27.5.0
+注入文件: AdobeAGM.framework/Versions/A/AdobeAGM
+文件和注入方式跟Adobe Audition 2023一样，略。
+
+## Adobe Dreamweaver 2021 21.3.0.15593
+同上。
+
+## Adobe Dreamweaver 2021 21.3.0.15593
+同上。
+
+## Adobe AfterEffects 23.3
+同上。
+
+## Adobe PremierePro 23.3
+同上。
+
+## Adobe Animate 2023 23.0.1
+同上。
+
+## Adobe Media Encoder 2023 23.3
+同上。
+
+## Adobe Lightroom Classic 12.3
+同上。
+
+## Adobe PhotoShop 24.4.1
+同上。也可以注入到AdobeARE文件里面，都行。
 
 # 注入小贴士
-
-[^lrc]: Adobe Photoshop Lightroom Classic
-
-    2. sudo insert_dylib /Users/qiuchenly/Library/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Lightroom\ Classic/Adobe\ Lightroom\ Classic.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Lightroom\ Classic/Adobe\ Lightroom\ Classic.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 
 [^photosp]: Adobe PhotoShop Creative Cloud Edition
     0. 从官方Adobe CC工具中下载官方正版，别从不知名的地方下。
