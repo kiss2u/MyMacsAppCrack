@@ -167,9 +167,6 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 ## Adobe Dreamweaver 2021 21.3.0.15593
 同上。
 
-## Adobe Dreamweaver 2021 21.3.0.15593
-同上。
-
 ## Adobe AfterEffects 23.3
 同上。
 
