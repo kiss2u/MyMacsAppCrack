@@ -229,7 +229,7 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 [^bestzip2]: 解优2
 
     这是一个我接触MacBook就开始眼馋的App。因为当时刚出来一代的时候AppStore霸榜第一的实力足以让我垂涎欲滴。
-    1. Copy /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel to /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel的副本
+    1. Copy the file /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel to /Applications/BestZip 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel的副本
     2. ```sudo insert_dylib /Users/qiuchenly/...YOUR...PATH...!!!!.../libInlineInjectPlugin.dylib /Applications/BestZip\ 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel的副本 /Applications/BestZip\ 2.app/Contents/Frameworks/JSONModel.framework/Versions/A/JSONModel```
     3. Ok.Open it and read activation's from Preference.
 
@@ -313,7 +313,7 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 [^bandizip365]: Bandizip365 Crack
 
     1. Download App from Mac App Store.
-    2. copy /Applications/Bandizip365.app/Contents/MacOS/Bandizip365 to /Applications/Bandizip365.app/Contents/MacOS/Bandizip365\_副本.
+    2. Copy the file /Applications/Bandizip365.app/Contents/MacOS/Bandizip365 to /Applications/Bandizip365.app/Contents/MacOS/Bandizip365\_副本.
     3. Execute the code:
        ```bash
        sudo insert_dylib libInlineInjectPlugin.dylib <your_xxx_副本_file> <your_xxx_file>
