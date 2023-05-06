@@ -7,8 +7,26 @@
 <p align="center">更新日期 2023.05.04</p>
 <p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
 
-### <p align="center">查询作者的成分</p>
-女权主义者，爱狗人士，高技术力舔狗。
+# <p align="center">版权申明/免责声明</p>
+
+<details><summary>Proclaim & Announcement</summary>
+
+本项目仅交流学习软件安全技术使用，不会发布任何形式的成品App，不收任何人钱，各位谨防受骗。
+
+本项目主要目的是为了证明macOS上软件安全漏洞，在此致谢开发这些软件的厂商，如果您认为这侵犯了您的合法权益，我将会删除与您相关的任何代码。
+
+不要将本项目研究成果进行**传播**破坏软件公司的利益，所有法律责任由传播者独自承担，作者从未为任何破解软件传播组织提供过任何形式的技术支持，不支持不赞同不理解传播盗版软件这种违法行为。
+
+因使用者传播者传播破解软件导致的任何法律责任与包括但不仅限于引起系统故障 财产损失等问题作者概不负责。
+
+如果您觉得作者侵犯了您的合法权益，请致信********@qq.com此邮箱地址，我将删除与您利益相关的代码和文件，不要上来就发律师函威胁我，我用于研究学习不盈利，问心无愧，谢谢。
+</details>
+
+## <p align="center">查询作者的成分</p>
+<details>
+<summary>点击查看作者的精神状态</summary>
+
+女👊主义者，爱狗人士，高技术力舔狗。
 
 b站抽象小鬼，烂梗之王，话题终结者。
 
@@ -16,15 +34,16 @@ b站抽象小鬼，烂梗之王，话题终结者。
 
 柯洁铁粉，七海娜娜米结晶人，冬雪莲男友粉，Otto棍孝子。
 
-火星包包孝子，引流之主EQQR炮车没🐎。
+火星包包孝子，引流之主EQQA炮车没🐎。
 
 青海社会摇2023代传人，但是不穿豆豆鞋紧身衣。
 
 西安摇强劲对手，苏南张诗尧，青海摇集大成者。
 
 U R B B R,G R O U GAY!
+</details>
 
-### <p align="center">点击上方的中文/英文查看具体使用方法,或者翻到本页面下面查看说明</p>
+## <p align="center">点击上方的中文/英文查看具体使用方法,或者翻到本页面下面查看我编写的使用说明</p>
 
 &nbsp;&nbsp;每次github文件更新后要及时下载更新, 我希望看到的是大家愉快的使用我的智慧成果而不是有小可爱拿旧版本文件问我为什么激活不了新版本，那我倒是要问问你，为什么不下载新的补丁文件？
 
@@ -34,7 +53,20 @@ U R B B R,G R O U GAY!
 
 # <center>注入补丁支持的App列表一览 </center>
 
-数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接
+数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接.
+
+<details>
+<summary>关于不要Codesign App和关闭SIP的说明</summary>
+<pre>
+本补丁支持的所有app只需要注入进去即可，不要自作聪明去Codesign破坏原始app的完整签名，这样会丢失App的权限和功能缺失。
+
+最简单的例子：CleanMyMac X多少人自作聪明注入完我的补丁然后去codesign整个App？最后无限弹出权限请求，还有状态栏组件不解锁？然后还认为是我的问题，我只能说，脑子不需要可以捐了。本篇使用说明通篇tmd就没叫你们codesign过！
+
+注入完补丁打不开App提示崩溃的自己先看看关没关macOS SIP再来提issues。大部分App必须关闭SIP才能在注入后正常运行，很多人不关SIP还想用破解软件我只能说你在脱裤子放屁。老子利用的就是nmd关掉SIP后动态注入了App内存修改的激活代码，不然你tm以为老子怎么做到的？不关SIP老子怎么注入进App内存？怎么修改代码？动动脑子行吗各位。
+
+苹果做了一个SIP机制就奉为圭臬，完全不考虑SIP到底是什么作用。对这种人我实在是心累。
+</pre>
+</details>
 
 | App名称                                             | 支持的版本             | 下载链接                                                                                                          |破解原因|
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
@@ -46,7 +78,7 @@ U R B B R,G R O U GAY!
 | Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |随便破破|
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |随便破破|
 | Sublime Text Dev[^sublimetext]                      | v4148               | [官方下载链接](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |随便破破|
-| CleanMyMac X[^cmm]                               | v4.13.3           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
+| CleanMyMac X[^cmm]                               | v4.13.4           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
 | App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [官方下载链接](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |随便破破|
 | PopClip[^popclip]                                   | v2022.12            | [官方下载链接](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |随便破破|
 | MWeb Pro[^mwebpro]                                  | v4.4.4 - 直接通杀后续版本             | [官方下载链接](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |随便破破|
@@ -58,15 +90,16 @@ U R B B R,G R O U GAY!
 | OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
 | Xmind[^xmind]                                       | v22.11.3656         | [官方下载链接](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |随便破破|
-|Navicat Premium[^Navicat] |v16.1.7 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
+|Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.2 (7.5.4410)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe PhotoShop CC[^photosp] |v24.4.1/v24.2.0|官方Creative Cloud中下载|设计领域最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 
-## Q&A
+## 指南
+<details>
+<summary>对非专业IT人士</summary>
 
-### 指南:对非专业IT人士
 我一点都没学过软件，你说的操作步骤我根本看不懂啊！
 
 好，那我就在此认认真真的跟你讲一遍怎么用.
@@ -93,24 +126,31 @@ U R B B R,G R O U GAY!
 
     按下回车重新打开App即可。所有操作的文件全都是完整路径，下方注入说明写的不详细请参考这里。
 
-    一定要拖入，而不要偷懒自作聪明复制文件路径粘贴到终端上去！
+    一定要用鼠标拖入到终端上，而不要偷懒自作聪明复制文件路径粘贴到终端上去！
     
     楼主看到这种自作聪明的小可爱都笑嘻了。
 
     **有些app文件名有空格**你单纯复制路径是不会自动转义的！
     千万要记住是 **直!接!用!** 鼠标拖动文件到终端上！他会自动加上空格！
+</details>
 
-补充说明：
-
-写这么多跟技术有关的一句没有，全在解决跟技术无关的操作问题。你要是实在用不了就别用了，自己dinner不要觉得别人跟你一样dinner。
-
-还有，版本更新快不快取决于我能不能第一时间发现新版本并patch，如果我没有更新你就别升级，升级完了我都没发布升级补丁，有什么用？
-### 指南:对IT专业人士的指南
+<details>
+<summary>对IT专业人士</summary>
 搞技术的终端都会用吧？
+
 ```
 sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路径 /Appxxx/xxx/xxx副本 /Appxxx/xxx/xxx
 ```
 回车并重新打开app即可。
+</details>
+
+
+<details>
+<summary>补充说明</summary>
+写这么多跟技术有关的一句没有，全在解决跟技术无关的操作问题。你要是实在用不了就别用了，自己dinner不要觉得别人跟你一样dinner。
+
+还有，版本更新快不快取决于我能不能第一时间发现新版本并patch，如果我没有更新你就别升级，升级完了我都没发布升级补丁，有什么用？
+</details>
 
 ### 注入补丁是否安全?
 
@@ -127,13 +167,19 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
 # QQ吹牛群 
-群没了 别加了 避免被说成引流
+群号已经删除 别找了 避免被说成引流
 
 # Adobe 全系破解
 
 省流:
 
-除了Adobe XD，其他App都是AdobeAGM.framework/Versions/A/AdobeAGM这个文件注入进去。
+除了Adobe XD，其他App都是找到App文件里面的AdobeAGM.framework/Versions/A/AdobeAGM这个文件注入进去。
+
+```
+Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+
+意思就是让你去App目录下找到这个文件所在的位置，一般都在Frameworks里面.
+```
 
 下方没有列出来的版本表示暂不支持。
 
@@ -142,11 +188,12 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 参考注入代码: 
 
 看不懂的换个脑子就好了
-```
-sudo insert_dylib /你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM副本
- Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```shell
+sudo insert_dylib的全路径 libInlineInjectPlugin.dylib的全路径 Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM副本 Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 ```
 
+<details>
+<summary>Adobe全家桶中具体支持解锁的App版本和注入说明</summary>
 
 ## Adobe XD 版本 56.1.12.1
 注入文件: /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb
@@ -188,6 +235,7 @@ sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复
 ## Adobe Acrobat 23.001.20143
 同上。
 注意这个App有一个Adobe Acrobat Distiller 应用程序，Distiller这个App里面同样的文件注入进去即可使用。
+</details>
 
 # 注入小贴士
 
