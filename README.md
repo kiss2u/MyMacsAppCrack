@@ -4,7 +4,7 @@
 <p align="center">K'ed By QiuChenly(秋城落叶)</p>
 <p align="center">为我的Mac独奏MVP凯歌</p>
 <p align="center">Powered By 青海摇</p>
-<p align="center">更新日期 2023.05.04</p>
+<p align="center">更新日期 2023.05.12</p>
 <p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
 
 # <p align="center">版权申明/免责声明</p>
@@ -33,6 +33,8 @@ b站抽象小鬼，烂梗之王，话题终结者。
 贴吧黄牌老东西，v8元老，孙笑川吧老东西。
 
 柯洁铁粉，七海娜娜米结晶人，冬雪莲男友粉，Otto棍孝子。
+
+顶级雏草姬，举办塔菲喵，举办塔菲谢谢喵。
 
 火星包包孝子，引流之主EQQA炮车没🐎。
 
@@ -77,9 +79,9 @@ U R B B R,G R O U GAY!
 | Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [官方下载链接](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |随便破破|
 | Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |随便破破|
 | PlistEdit Pro[^plistedit_pro]                       | v1.10b1             | Here                                                                                                            |随便破破|
-| Sublime Text Dev[^sublimetext]                      | v4148               | [官方下载链接](https://download.sublimetext.com/sublime_text_build_4148_mac.zip)                          |随便破破|
+| Sublime Text Dev[^sublimetext]                      | v4149               | [官方下载链接](https://download.sublimetext.com/sublime_text_build_4149_mac.zip)                          |随便破破|
 | CleanMyMac X[^cmm]                               | v4.13.4           | [官方下载链接](https://dl.devmate.com/com.macpaw.CleanMyMac4/CleanMyMacX.dmg)                             |随便破破|
-| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.2                | [官方下载链接](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |随便破破|
+| App Cleaner & Uninstaller[^app_cleaner_uninstaller] | v8.1.3                | [官方下载链接](https://download.nektony.com/download/app-cleaner-uninstaller/app-cleaner-uninstaller.dmg) |随便破破|
 | PopClip[^popclip]                                   | v2022.12            | [官方下载链接](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |随便破破|
 | MWeb Pro[^mwebpro]                                  | v4.4.4 - 直接通杀后续版本             | [官方下载链接](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |随便破破|
 | Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |随便破破|
@@ -169,6 +171,10 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 # QQ吹牛群 
 群号已经删除 别找了 避免被说成引流
 
+【烟Distance】
+靠近我一点，别理我那么远～oh～
+可是雪～豹～已失联～
+
 # Adobe 全系破解
 
 省流:
@@ -196,34 +202,50 @@ sudo insert_dylib的全路径 libInlineInjectPlugin.dylib的全路径 Adobexxxxx
 <summary>Adobe全家桶中具体支持解锁的App版本和注入说明</summary>
 
 ## Adobe XD 版本 56.1.12.1
+
 注入文件: /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb
 ```
 sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb_副本 /Applications/Adobe\ XD/Adobe\ XD.app/Contents/Frameworks/nanopb.framework/Versions/A/nanopb
 ```
 
 ## Adobe Audition 2023 23.3
+
 注入文件: /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 ```
 sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Audition\ 2023/Adobe\ Audition\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 ```
 
 ## Adobe Illustrator 27.5.0
+
 注入文件: AdobeAGM.framework/Versions/A/AdobeAGM
 文件和注入方式跟Adobe Audition 2023一样，略。
 
 ## Adobe Dreamweaver 2021 21.3.0.15593
+
 同上。
 
-## Adobe AfterEffects 23.3
+## Adobe AfterEffects 23.4
+
+```shell
+sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineInjectPlugin.dylib /Applications/Adobe\ After\ Effects\ 2023/Adobe\ After\ Effects\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ After\ Effects\ 2023/Adobe\ After\ Effects\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
 同上。
 
-## Adobe PremierePro 23.3
+## Adobe PremierePro 23.4
+
+```shell
+sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineInjectPlugin.dylib /Applications/Adobe\ Premiere\ Pro\ 2023/Adobe\ Premiere\ Pro\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Premiere\ Pro\ 2023/Adobe\ Premiere\ Pro\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
 同上。
 
 ## Adobe Animate 2023 23.0.1
 同上。
 
-## Adobe Media Encoder 2023 23.3
+## Adobe Media Encoder 2023 23.4
+
+```shell
+sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineInjectPlugin.dylib /Applications/Adobe\ Media\ Encoder\ 2023/Adobe\ Media\ Encoder\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM_副本 /Applications/Adobe\ Media\ Encoder\ 2023/Adobe\ Media\ Encoder\ 2023.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
+```
 同上。
 
 ## Adobe Lightroom Classic 12.3
