@@ -313,7 +313,7 @@ sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineI
 [^xmind]: Xmind
 
     1. modify some javascript.
-    2. about crack the app more infomation pls read it: https://www.52pojie.cn/thread-1695324-1-1.html.
+    2. about crack the app for windows/Macos  more infomation pls read it: :https://www.52pojie.cn/thread-1786811-1-1.html
     3. The asar file so big, i can't upload it.
 
 [^app_cleaner_uninstaller]: App Cleaner & Uninstaller
