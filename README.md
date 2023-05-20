@@ -58,15 +58,18 @@ U R B B R,G R O U GAY!
 数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接.
 
 <details>
-<summary>关于不要Codesign App和关闭SIP的说明</summary>
+<summary>必看！点我查看关于不要Codesign App和关闭SIP的说明</summary>
 <pre>
+
+注入完成后千万不要删除补丁文件，软件运行时还是需要依赖这个补丁文件的！
+
 本补丁支持的所有app只需要注入进去即可，不要自作聪明去Codesign破坏原始app的完整签名，这样会丢失App的权限和功能缺失。
 
 最简单的例子：CleanMyMac X多少人自作聪明注入完我的补丁然后去codesign整个App？最后无限弹出权限请求，还有状态栏组件不解锁？然后还认为是我的问题，我只能说，脑子不需要可以捐了。本篇使用说明通篇tmd就没叫你们codesign过！
 
 注入完补丁打不开App提示崩溃的自己先看看关没关macOS SIP再来提issues。大部分App必须关闭SIP才能在注入后正常运行，很多人不关SIP还想用破解软件我只能说你在脱裤子放屁。老子利用的就是nmd关掉SIP后动态注入了App内存修改的激活代码，不然你tm以为老子怎么做到的？不关SIP老子怎么注入进App内存？怎么修改代码？动动脑子行吗各位。
 
-苹果做了一个SIP机制就奉为圭臬，完全不考虑SIP到底是什么作用。对这种人我实在是心累。
+不要听风就是雨，要有自己的主观思考意识。
 </pre>
 </details>
 
@@ -74,7 +77,7 @@ U R B B R,G R O U GAY!
 |-----------------------------------------------------|---------------------|-----------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|
 | Omi 录屏专家[^omi_recording_pro]                    | v1.2.4(2023020802)  | MacAppStore                                                                                                      |随便破破|
 | Omi NTFS 磁盘专家 Pro[^omi_ntfs]                    | v1.2.3 (2023020701) | [官方下载链接](https://cdn.zh.okaapps.com/resource/download/NTFS-Pro-Installer.pkg)                       |随便破破|
-| Fig Player[^fig_player]                             | v1.2.3(2023032401)  | MacAppStore                                                                                                      |随便破破|
+| Fig Player[^fig_player]                             | v1.3.0(2023051702)  | MacAppStore                                                                                                      |随便破破|
 | Bandizip365[^bandizip365]                           | v7.22               | [MacAppStore](https://apps.apple.com/cn/app/bandizip-365-%E5%8E%8B%E7%BC%A9%E5%92%8C%E8%A7%A3%E5%8E%8B%E7%BC%A9/id1596426184?mt=12)                                                                                                      |随便破破|
 | Macs Fan Control[^macs_fan_control]                 | v1.5.15             | [官方下载链接](https://crystalidea.com/downloads/macsfancontrol.zip)                                      |随便破破|
 | Record it Pro[^record_it_pro]                       | v1.7.6              | MacAppStore                                                                                                        |随便破破|
@@ -88,13 +91,13 @@ U R B B R,G R O U GAY!
 | iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |国产App之光，谨此致敬🫡|
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |随便破破|
 | SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |随便破破|
-| 解优2[^bestzip2]                         | v1.6.1              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-%E4%B8%93%E4%B8%9A%E7%9A%84-rar-7z-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1450246547?mt=12)                                                                                                      |UI 很好看|
-| OmniPlayer[^omniPlayer]                         | v2.0.19 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
+| 解优2[^bestzip2]                         | v1.6.1              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-2-%E4%B8%93%E4%B8%9A%E7%9A%84-7z-rar-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1525983573?mt=12)                                                                                                      |UI 很好看|
+| OmniPlayer[^omniPlayer]                         | v2.1.0 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
-| Xmind[^xmind]                                       | v22.11.3656         | [官方下载链接](https://dl2.xmind.cn/Xmind-for-macOS-22.11.3656.dmg)                                       |随便破破|
+| Xmind[^xmind]                                       | v23.05.2005 Win/Mac 通杀版         | [官方下载链接](https://xmind.cn/download/)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
-|Infuse Pro[^Infuse] |v7.5.2 (7.5.4410)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
-|Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.72|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
+|Infuse Pro[^Infuse] |v7.5.3 (7.5.4425)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe PhotoShop CC[^photosp] |v24.4.1/v24.2.0|官方Creative Cloud中下载|设计领域最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 
