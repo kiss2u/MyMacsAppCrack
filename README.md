@@ -98,7 +98,6 @@ U R B B R,G R O U GAY!
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.3 (7.5.4425)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
-|Adobe PhotoShop CC[^photosp] |v24.4.1/v24.2.0|官方Creative Cloud中下载|设计领域最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 
 ## 指南
@@ -182,7 +181,11 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 
 省流:
 
-除了Adobe XD，其他App都是找到App文件里面的AdobeAGM.framework/Versions/A/AdobeAGM这个文件注入进去。
+除了有特殊说明的 App，其他App都是找到App文件里面的AdobeAGM.framework/Versions/A/AdobeAGM 这个文件注入进去。
+
+特殊说明 - 不能注入到AdobeAGM中的App:
+1. Adobe XD
+2. 无
 
 ```
 Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
@@ -254,21 +257,25 @@ sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineI
 ## Adobe Lightroom Classic 12.3
 同上。
 
-## Adobe PhotoShop 24.4.1
-同上。也可以注入到AdobeARE文件里面，都行。
+## Adobe PhotoShop 24.5
+同上。
+
+## Adobe InCopy 18.2.1.455
+同上。
+
+## Adobe InDesign 18.2.1.455
+同上。
 
 ## Adobe Acrobat 23.001.20143
 同上。
 注意这个App有一个Adobe Acrobat Distiller 应用程序，Distiller这个App里面同样的文件注入进去即可使用。
+这个 App 比较特殊，最近两个版本没有破解完整，大家不要用。等什么时候看不到这句话了就说明能用了。
+
+
+
 </details>
 
 # 注入小贴士
-
-[^photosp]: Adobe PhotoShop Creative Cloud Edition
-    0. 从官方Adobe CC工具中下载官方正版，别从不知名的地方下。
-    1. Copy /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE to /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE_副本
-    2. sudo insert_dylib /Users/qiuchenly/你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE_副本 /Applications/Adobe\ Photoshop\ 2023/Adobe\ Photoshop\ 2023.app/Contents/Frameworks/AdobeARE.framework/Versions/A/AdobeARE
-    3. ok.
 
 [^excel365]: Office Excel 365/Office PowerPoint 365/Office Word 365
     1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
