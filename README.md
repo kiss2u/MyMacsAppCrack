@@ -4,7 +4,7 @@
 <p align="center">K'ed By QiuChenly(秋城落叶)</p>
 <p align="center">为我的Mac独奏MVP凯歌</p>
 <p align="center">Powered By 青海摇</p>
-<p align="center">更新日期 2023.05.12</p>
+<p align="center">更新日期 2023.05.28</p>
 <p align="center"><a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/CN.md">中文</a> | <a href="https://github.com/QiuChenly/MyMacsAppCrack/blob/main/EN.md">English</a></p>
 
 # <p align="center">版权申明/免责声明</p>
@@ -97,6 +97,7 @@ U R B B R,G R O U GAY!
 | Xmind[^xmind]                                       | v23.05.2661 Win/Mac 通杀版         | [官方下载链接](https://xmind.cn/download/)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.3 (7.5.4425)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Surge Enterprise[^surge] |v5.1.1 (2237)|[官方下载链接](https://dl.nssurge.com/mac/v5/Surge-latest.zip)|App做的很好 但下一秒正版企业授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 
@@ -276,6 +277,12 @@ sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineI
 </details>
 
 # 注入小贴士
+
+[^surge]: Surge完整企业授权
+    一定要打开测试版本更新到我指定的最新版本！
+    1. 复制/Applications/Surge.app/Contents/Frameworks/MMMarkdown.framework/Versions/A/MMMarkdown为/Applications/Surge.app/Contents/Frameworks/MMMarkdown.framework/Versions/A/MMMarkdown_副本 备用。
+    2. sudo 你的文件夹路径！！！不要直接复制本Shell！！！/insert_dylib 你的文件夹路径！！！不要直接复制本Shell！！！/libInlineInjectPlugin.dylib /Applications/Surge.app/Contents/Frameworks/MMMarkdown.framework/Versions/A/MMMarkdown_副本 /Applications/Surge.app/Contents/Frameworks/MMMarkdown.framework/Versions/A/MMMarkdown
+    3. Ok。
 
 [^excel365]: Office Excel 365/Office PowerPoint 365/Office Word 365
     1. Copy /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI to /Applications/Microsoft Excel.app/Contents/Frameworks/FluentUI.framework/Versions/A/FluentUI的副本
