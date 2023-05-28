@@ -262,10 +262,10 @@ sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineI
 ## Adobe PhotoShop 24.5
 同上。
 
-## Adobe InCopy 18.2.1.455
+## Adobe InCopy 18.3.0.50
 同上。
 
-## Adobe InDesign 18.2.1.455
+## Adobe InDesign 18.3.0.50
 同上。
 
 ## Adobe Acrobat 23.001.20143
