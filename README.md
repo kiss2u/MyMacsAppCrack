@@ -97,6 +97,7 @@ U R B B R,G R O U GAY!
 | Xmind[^xmind]                                       | v23.05.2661 Win/Mac 通杀版         | [官方下载链接](https://xmind.cn/download/)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.3 (7.5.4425)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Parallels Desktop[^pd18] |v18.3.0-53606|[官方下载链接](https://download.parallels.com/desktop/v18/18.3.0-53606/ParallelsDesktop-18.3.0-53606.dmg)|Mac平台最强大的虚拟机 没有之一|
 |Surge Enterprise[^surge] |v5.1.1 (2239)|[官方下载链接](https://dl.nssurge.com/mac/v5/Surge-latest.zip)|App做的很好 但下一秒正版企业授权就是我的了|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
@@ -277,6 +278,10 @@ sudo /你的文件完整路径/insert_dylib /你的文件完整路径/libInlineI
 </details>
 
 # 注入小贴士
+
+[^pd18]: Parallels Desktop 18
+    1. 执行 sh install_parallels.sh 并输入管理员权限。
+    2. ok。
 
 [^surge]: Surge完整企业授权
     一定要打开测试版本更新到我指定的最新版本！
