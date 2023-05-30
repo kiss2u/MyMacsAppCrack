@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 BASE_PATH=$(
-  cd $(dirname "$0");
+  cd $(dirname "$0")
   pwd
 )
 
@@ -56,7 +56,7 @@ if [ "$EUID" -ne 0 ]; then
 fi
 
 # if prl_disp_service running, stop it
-if pgrep -x "prl_disp_service" > /dev/null; then
+if pgrep -x "prl_disp_service" >/dev/null; then
   echo -e "${COLOR_INFO}[*] 停止Parallels Service服务...${NOCOLOR}"
   "${PDFM_DIR}/Contents/MacOS/Parallels Service" service_stop >/dev/null
 fi
@@ -65,21 +65,47 @@ echo -e "${COLOR_INFO}[*] 注入文件到Parallels Desktop...${NOCOLOR}"
 
 cp "${PDFM_LIB}" "${PDFM_LIB_DST}"
 
+defaults write /Library/Preferences/com.apple.security.libraryvalidation.plist DisableLibraryValidation -bool true
+
 "${BASE_PATH}/Tools/insert_dylib" "${BASE_PATH}/Tools/libInlineInjectPlugin.dylib" "${PDFM_LIB_DST}" "${PDFM_LIB}"
 
 echo -e "${COLOR_INFO}[*] 复制伪造的授权文件 licenses.json${NOCOLOR}"
 
 if [ -f "${LICENSE_DST}" ]; then
-  chflags -R 0 "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-  rm -f "${LICENSE_DST}" > /dev/null || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
+  chflags -R 0 "${LICENSE_DST}" || {
+    echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+    exit $?
+  }
+  rm -f "${LICENSE_DST}" >/dev/null || {
+    echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+    exit $?
+  }
 fi
 
-cp -f "${LICENSE_FILE}" "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-chown root:wheel "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-chmod 444 "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-chflags -R 0 "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-chflags uchg "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
-chflags schg "${LICENSE_DST}" || { echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"; exit $?; }
+cp -f "${LICENSE_FILE}" "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
+chown root:wheel "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
+chmod 444 "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
+chflags -R 0 "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
+chflags uchg "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
+chflags schg "${LICENSE_DST}" || {
+  echo -e "${COLOR_ERR}error $? at line $LINENO.${NOCOLOR}"
+  exit $?
+}
 
 # check hash
 FILE_HASH=$(shasum -a 256 -b "${LICENSE_DST}" | awk '{print $1}')
