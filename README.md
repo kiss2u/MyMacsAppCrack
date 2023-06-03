@@ -101,6 +101,7 @@ U R B B R,G R O U GAY!
 |Surge Enterprise[^surge] |v5.1.1 (2259)|[官方下载链接](https://dl.nssurge.com/mac/v5/Surge-5.1.1-2251-25b569303a5219ac59c8375ba3cd1034.zip)|App做的很好 但下一秒正版企业授权就是我的了 一定要指定的版本!|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
+|Affinity 全家桶破解 | 2.1.0 | Mac AppStore 下载 | 设计领域比较牛逼的产品，补丁支持的解锁版本在下面有说明 |
 
 ## 指南
 <details>
@@ -178,6 +179,18 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 【烟Distance】
 靠近我一点，别理我那么远～oh～
 可是雪～豹～已失联～
+
+# Affinity 全系破解
+注入文件: 都是liblibxml.dylib
+/Applications/Affinity\ Publisher\ 2.app/Contents/Frameworks/liblibxml.dylib
+/Applications/Affinity\ Designer\ 2.app/Contents/Frameworks/liblibxml.dylib
+/Applications/Affinity\ Photo\ 2.app/Contents/Frameworks/liblibxml.dylib
+
+注入示例:
+sudo insert_dylib /你的目录！！不要直接复制执行本shell！/libInlineInjectPlugin.dylib /Applications/Affinity\ Photo\ 2.app/Contents/Frameworks/liblibzlib_副本.dylib /Applications/Affinity\ Photo\ 2.app/Contents/Frameworks/liblibzlib.dylib
+
+支持版本:
+Mac AppStore 2.1.0
 
 # Adobe 全系破解
 
