@@ -102,6 +102,7 @@ U R B B R,G R O U GAY!
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 |Affinity 全家桶破解 | 2.1.0 | Mac AppStore 下载 | 设计领域比较牛逼的产品，补丁支持的解锁版本在下面有说明 |
+| Effie | 2.7.1 | [官方下载链接](https://download.effie.co/effie/effie-2.7.1.dmg) | Markdown良心国产软件 希望大家支持正版 |
 
 ## 指南
 <details>
