@@ -53,6 +53,10 @@ U R B B R,G R O U GAY!
 
 &nbsp;&nbsp;都用破解软件了连SIP都不会关的dinner滚一边，有不要脸还来问我SIP怎么关的我上来就骂。你可以不知道怎么关但是连百度都不会用那确实低能，这种人我建议你别用macOS了，你不适合用电脑。
 
+# 代码开源
+本项目所使用的注入Dylib文件源代码已经基于GPLV3协议开源，欢迎关注&提交Pull Requests。
+地址: https://github.com/QiuChenlyOpenSource/macOS-InjectPluginCode
+
 # <center>注入补丁支持的App列表一览 </center>
 
 数字上标可点击查看注入方法 下载链接点击会跳转到官方下载链接.
