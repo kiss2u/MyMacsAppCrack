@@ -88,7 +88,7 @@ U R B B R,G R O U GAY!
 | PopClip[^popclip]                                   | v2022.12            | [官方下载链接](https://pilotmoon.com/downloads/PopClip-2022.12.zip)                                       |随便破破|
 | MWeb Pro[^mwebpro]                                  | v4.4.4 - 直接通杀后续版本             | [官方下载链接](https://mweb-1256924220.cos.accelerate.myqcloud.com/MWebPro441.dmg)                        |随便破破|
 | Ulysses[^ulysses]                                   | v29.4               | MacAppStore                                                                                                      |随便破破|
-| iShot[^ishot]                                       | v2.3.3              | MacAppStore                                                                                                      |国产App之光，谨此致敬🫡|
+| iShot[^ishot]                                       | v2.3.4              | MacAppStore                                                                                                      |国产App之光，谨此致敬🫡|
 | AutoSwitchInput[^autoswitch]                        | v2.2.1              | MacAppStore                                                                                                      |随便破破|
 | SuperRightKey[^irightmouse]                         | v2.2.3              | MacAppStore                                                                                                      |随便破破|
 | 解优2[^bestzip2]                         | v1.6.1              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-2-%E4%B8%93%E4%B8%9A%E7%9A%84-7z-rar-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1525983573?mt=12)                                                                                                      |UI 很好看|
@@ -96,9 +96,9 @@ U R B B R,G R O U GAY!
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
 | Xmind[^xmind]                                       | v23.05.2661 Win/Mac 通杀版         | [官方下载链接](https://xmind.cn/download/)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
-|Infuse Pro[^Infuse] |v7.5.3 (7.5.4425)|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
+|Infuse Pro[^Infuse] |v7.5.4|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Parallels Desktop[^pd18] |v18.3.0-53606|[官方下载链接](https://download.parallels.com/desktop/v18/18.3.0-53606/ParallelsDesktop-18.3.0-53606.dmg)|Mac平台最强大的虚拟机 没有之一|
-|Surge Enterprise[^surge] |v5.1.1 (2259)|[官方下载链接](https://dl.nssurge.com/mac/v5/Surge-5.1.1-2251-25b569303a5219ac59c8375ba3cd1034.zip)|App做的很好 但下一秒正版企业授权就是我的了 一定要指定的版本!|
+|Surge Enterprise[^surge] |v5.1.1 (2264)|[官方下载链接](https://dl.nssurge.com/mac/v5/Surge-5.1.1-2251-25b569303a5219ac59c8375ba3cd1034.zip)|App做的很好 但下一秒正版企业授权就是我的了 一定要指定的版本!|
 |Microsoft Office 365 Excel/PowerPoint/Word[^excel365] |v16.73|[MacAppStore](https://apps.apple.com/cn/app/microsoft-excel/id462058435?mt=12)|全球最牛逼的产品|
 |Adobe 全系破解 | N/A |官方Creative Cloud中下载|设计领域最牛逼的产品，补丁支持的解锁版本在下面有说明|
 |Affinity 全家桶破解 | 2.1.0 | Mac AppStore 下载 | 设计领域比较牛逼的产品，补丁支持的解锁版本在下面有说明 |
