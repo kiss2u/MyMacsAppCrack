@@ -58,8 +58,14 @@ U R B B R,G R O U GAY!
 地址: https://github.com/QiuChenlyOpenSource/macOS-InjectPluginCode
 
 # 重构InjectLib版本已支持M系/Intel处理器
-新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
-本项目已经不再更新，请关注新项目。
+## 看不到这一条说明有些人眼睛不要可以考虑捐掉
+本项目：MyMacsAppCrack 已经不再更新，所有App的更新只会在新项目更新，请关注新项目：InjectLib。
+
+MyMacsAppCrack已经停更了！有些人是不是阅读理解有障碍？停更能理解这个词吗？
+
+老子说这个库tmd已经停更了！！！下面有新项目InjectLib的地址，都看不到是吧？还在那问问问，我建议这些人先自测一下智力是不是在线。
+
+InjectLib新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
 
 # <center>注入补丁支持的App列表一览 </center>
 
