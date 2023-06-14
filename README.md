@@ -108,7 +108,6 @@ InjectLib新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
 | 解优2[^bestzip2]                         | v1.6.1              | [MacAppStore](https://apps.apple.com/cn/app/%E8%A7%A3%E4%BC%98-2-%E4%B8%93%E4%B8%9A%E7%9A%84-7z-rar-zip-%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%B7%A5%E5%85%B7/id1525983573?mt=12)                                                                                                      |UI 很好看|
 | OmniPlayer[^omniPlayer]                         | v2.1.0 (2023032801)              | [MacAppStore](https://apps.apple.com/cn/app/omni-player-%E9%AB%98%E6%B8%85%E5%BD%B1%E9%9F%B3%E6%92%AD%E6%94%BE%E5%99%A8/id1470926410?mt=12)                                                                                                      |UI 很好看|
 | Filmage Screen[^FilmageScreen]                         | v1.4.7              | [官方下载链接](https://pdfreaderpro.oss-cn-shanghai.aliyuncs.com/downloads/FilmageScreen.dmg)                                                                                                      |那天正好比较无聊而已|
-| Xmind[^xmind]                                       | v23.05.2661 Win/Mac 通杀版         | [官方下载链接](https://xmind.cn/download/)                                       |随便破破|
 |Navicat Premium[^Navicat] |v16.1.10 - 直接通杀后续版本|[MacAppStore](https://apps.apple.com/cn/app/navicat-premium-16/id1594061654?mt=12)|Navicat重度用户表示不破不立|
 |Infuse Pro[^Infuse] |v7.5.4|[MacAppStore](https://apps.apple.com/cn/app/infuse-%E6%99%BA%E8%83%BD%E8%A7%86%E9%A2%91%E6%92%AD%E6%94%BE%E5%99%A8/id1136220934)|App做的很好 但下一秒正版授权就是我的了|
 |Parallels Desktop[^pd18] |v18.3.0-53606|[官方下载链接](https://download.parallels.com/desktop/v18/18.3.0-53606/ParallelsDesktop-18.3.0-53606.dmg)|Mac平台最强大的虚拟机 没有之一|
@@ -136,7 +135,7 @@ InjectLib新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
 4. 这里iShot举例，第一步根据上面Copy后面的文件路径复制一份原文件备用，macOS会自动加"_副本"这三个字在后面，这里的PTHotkey文件被复制到PTHotkey_副本。
 5. 第二步打开终端输入:
     ![](media/16819812468264.jpg)
-    输入sudo+空格+拖入insert_dylib文件+空格+拖入dylib文件+空格。注意是全路径！！不是文件名！！ 
+    输入sudo+空格+拖入insert_dylib文件+空格+拖入dylib文件+空格。注意是全路径！！不是文件名！！
     最后看起来如下所示：
     ![](media/16819815456397.jpg)
     错误示范:
@@ -149,7 +148,7 @@ InjectLib新项目地址: https://github.com/QiuChenlyOpenSource/InjectLib
     按下回车重新打开App即可。所有操作的文件全都是完整路径，下方注入说明写的不详细请参考这里。
 
     一定要用鼠标拖入到终端上，而不要偷懒自作聪明复制文件路径粘贴到终端上去！
-    
+
     楼主看到这种自作聪明的小可爱都笑嘻了。
 
     **有些app文件名有空格**你单纯复制路径是不会自动转义的！
@@ -188,7 +187,7 @@ sudo insert_dylib文件完整路径 libInlineInjectPlugin.dylib文件完整路�
 
 如何体验正版?表格中的app右侧上方有数字上标，点击可查看对应的体验办法。
 
-# QQ吹牛群 
+# QQ吹牛群
 群号已经删除 别找了 避免被说成引流
 
 【烟Distance】
@@ -227,7 +226,7 @@ Adobexxxxx.app/Contents/Frameworks/AdobeAGM.framework/Versions/A/AdobeAGM
 
 另外，补丁只支持Intel Mac，M1/M2电脑据群友反馈说打开Rosseta可以运行，你们自己测试吧。
 
-参考注入代码: 
+参考注入代码:
 
 看不懂的换个脑子就好了
 ```shell
@@ -469,11 +468,11 @@ __Z16verify_signatureRKNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorI
     1. Copy And Backup the file.
     2. Open 'sublime_text' file use 'Hex Friends',find:
         0249FFC6 EBE15B41 5C415E41 5F5DC355 4889E5
-    3. Replace The Hashcode with: 
+    3. Replace The Hashcode with:
         0249FFC6 EBE15B41 5C415E41 5F5DC36A 0158C3
 
         ![](./Sublime%20Text%204147.png)
-        
+
     4. Open Sublime Text v4147, input the fake Licence get activation:
 
         ```
